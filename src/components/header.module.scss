@@ -1,0 +1,53 @@
+@import "../styles/variables";
+
+
+.header {
+    /* // "d-flex flex-wrap justify-content-center py-3 mb-4 bg-dark" */
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    background-color: $secondary-color;
+}
+
+.logo {
+    // "d-flex align-items-center mb-md-0 me-md-auto text-decoration-none"
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 0 !important;
+    margin-left: 2rem !important;
+    margin-right: auto !important;
+    text-decoration: none !important;
+    font-family: $font-logo;
+    color: $primary-color;
+    font-size: 1.5rem !important;
+}
+
+.nav {
+    // "nav nav-pills"
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navLink {
+    // "nav-link"
+    background: none;
+    border: 0;
+    border-radius: 0.25rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: $primary-color;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+}
+
+.navLink:hover {
+    // "nav-link:hover"
+    color: white;
+}

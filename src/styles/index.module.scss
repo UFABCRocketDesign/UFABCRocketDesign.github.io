@@ -1,0 +1,124 @@
+@import 'variables';
+
+.banner {
+    // "background-img sticky"
+    background-image: url("../../public/images/horizon.jpeg");
+    background-attachment: fixed;
+
+    height: 80%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    // "container my-5"
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.row {
+    // "row"
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.video>*,
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.title {
+    // "text-center"
+    text-align: center;
+
+}
+
+.col {
+    // "col mx-4"
+    flex: 1 0 0%;
+    margin: 1rem !important;
+}
+
+.video {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+
+    width: 600px !important;
+    height: auto;
+    max-width: 100%;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: auto !important;
+    margin-left: auto !important;
+
+}
+
+.video>* {
+    border-radius: 2rem !important;
+}
+
+.highlightCol {
+    flex: 1 0 0%;
+    display: flex !important;
+    align-items: center;
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
+}
+
+.highlightText {
+    text-align: right !important;
+    color: white !important;
+    font-size: 2rem;
+}
+
+.imageContainer {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.imageContent {
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    padding: 1rem;
+}
+
+.imageContentText {
+    color: white;
+    word-wrap: break-word;
+    align-self: flex-end !important;
+    font-size: 1rem;
+    text-align: start !important;
+    margin: 0% !important;
+}
+
+.imageContentButton {
+    border-radius: 0.25rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    align-self: flex-end !important;
+    text-transform: none;
+    word-wrap: break-word;
+    font-family: $font-title;
+}

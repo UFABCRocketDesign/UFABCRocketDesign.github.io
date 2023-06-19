@@ -1,0 +1,34 @@
+{
+    "team": [
+        {
+            "name": "Monkey D. Luffy",
+            "role": "Captain",
+            "text": "I am Monkey D. Luffy, the man who will become the Pirate King!",
+            "photo": "/images/Luffy.jpg"
+        },
+        {
+            "name": "Sabo",
+            "role": "Revolutionary's Chief of Staff",
+            "text": "Things always have a core. And if you strike it, you can turn any situation around.",
+            "photo": "/images/Sabo.jpg"
+        },
+        {
+            "name": "Roronoa Zoro",
+            "role": "Combatant",
+            "text": "You need to accept the fact that you’re not the best and have all the will to strive to be better than anyone you face.",
+            "photo": "/images/Zoro.jpg"
+        },
+        {
+            "name": "Gol D. Roger",
+            "role": "King of Pirates",
+            "text": "I'm Roger! This meeting must be fate, Rayleigh! What do you say to turning the world upside down with me?!!",
+            "photo": "/images/Roger.webp"
+        },
+        {
+            "name": "Monkey D. Dragon",
+            "role": "Revolutionary",
+            "text": "There can be no happiness in a world where those deemed unnecessary are weeded out and eliminated...!! One day, I will change this world... you mark my words.",
+            "photo": "/images/Dragon.jpg"
+        }
+    ]
+}

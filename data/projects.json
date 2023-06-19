@@ -1,0 +1,46 @@
+{
+    "rockets": [
+        {
+            "name": "Polo",
+            "propulsion": "solid",
+            "apogee": 3000,
+            "description": "This is a rocket",
+            "image": "/images/polo.jpg",
+            "launches": { 
+            },
+            "finished": false
+        },
+        {
+            "name": "Aquitã",
+            "propulsion": "solid",
+            "apogee": 1000,
+            "description": "This is another rocket",
+            "image": "/images/aquita.jpg",
+            "launches": [
+                {
+                    "date": "2019-01-01",
+                    "location": "São José dos Campos",
+                    "success": true
+                }
+            ],
+            "finished": true
+            
+        },
+        {
+            "name": "Thousand Sunny",
+            "propulsion": "soda",
+            "apogee": 100000,
+            "description": "A ship as bright as the sun that will cheerfully sail through a thousand seas",
+            "image": "/images/Thousand_Sunny.webp",
+            "launches": [
+                {
+                    "date": "2019-01-01",
+                    "location": "São José dos Campos",
+                    "success": true
+                }
+            ],
+            "finished": true
+
+        }
+    ]
+}

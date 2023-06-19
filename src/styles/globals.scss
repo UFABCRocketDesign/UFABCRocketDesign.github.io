@@ -1,0 +1,47 @@
+@import "variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#__next {
+  flex: 1 1 auto;
+  height: 100%;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-family: $font-text;
+  background-color: $dark-gray;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: $font-title;
+  color: $primary-color;
+}
+
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-title;
+  color: $tertiary-color;
+}
+
+p {
+  font-family: $font-text;
+  color: white;
+  text-align: inherit;
+}
