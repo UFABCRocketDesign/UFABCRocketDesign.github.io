@@ -8,7 +8,9 @@
     justify-content: center !important;
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
-    background-color: $secondary-color;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0px 0px 15px 5px black;
 }
 
 .logo {
@@ -32,22 +34,19 @@
     margin-top: 0 !important;
     margin-bottom: 0;
     list-style: none;
+    align-content: center;
 }
 
 .navLink {
     // "nav-link"
-    background: none;
-    border: 0;
-    border-radius: 0.25rem;
     display: block;
     padding: 0.5rem 1rem;
-    color: $primary-color;
+    color: white;
     text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-
+    transition: color 0.15s ease-in-out;
 }
 
 .navLink:hover {
     // "nav-link:hover"
-    color: white;
+    color: $primary-color;
 }
