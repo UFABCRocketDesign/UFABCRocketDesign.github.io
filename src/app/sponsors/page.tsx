@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 import styles from '../../styles/sponsors.module.scss'
 // Beginning of page with the current project featured, followed by a list of all projects
 
-import  {sponsors} from '../../../data/sponsors.json'
+// import  {sponsors} from '../../../data/sponsors.json'
 
 export const metadata: Metadata = {
     title: 'Patrocinadores - UFABC Rocket Design',
@@ -20,13 +20,13 @@ export default function Sponsors() {
         {/* TODO: Implementar como será mostrado os patrocinadores */}
         <div className={styles.container}>
 
-            {sponsors.map((sponsor, index) => {
+            {/* {sponsors.map((sponsor, index) => {
                 return (<>
                 {/* <div class="col-lg-3 col-md-6 col-sm-6 single-logo">
                     <a href="https://www.gerdau.com.br/" target="_blank"><img class="img-fluid" src="img/logo/gerdau.png" alt="GERDAU" width="200px"></a>
-                </div> */}
+                </div>
                 </>);
-            })}
+            })} */}
             
             
         </div>

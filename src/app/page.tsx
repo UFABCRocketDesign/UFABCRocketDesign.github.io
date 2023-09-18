@@ -5,7 +5,6 @@ import styles from '../styles/index.module.scss';
 
 export default function Home() {
   return (
-
     <>
       <div className={styles.banner} >
         {/* We have 3 sections, one with photos on the left, one with abtract on the right, and one with sponsors on the bot */}
@@ -23,11 +22,11 @@ export default function Home() {
               UFABC Rocket Design
             </h1>
             <p className={styles.description}>
-              "When robbery is done in open daylight by sanction of the law, as it is done today, then any act of honor or restitution has to be hidden underground."
+              &quotWhen robbery is done in open daylight by sanction of the law, as it is done today, then any act of honor or restitution has to be hidden underground.&quot
 
-              "What made you think that I'd accept a gift of this kind?"
+              &quotWhat made you think that I&apos;d accept a gift of this kind?&quot
 
-              "It is not a gift, Mr. Rearden. It is your own money. But I have one favor to ask of you. It is a request, not a condition, because there can be no such thing as conditional property. The gold is yours, so you are free to use it as you please. But I risked my life to bring it to you tonight, so I am asking, as a favor, that you save it for the future or spend it on yourself. On nothing but your own comfort and pleasure. Do not give it away and, above all, do not put it into your business."
+              &quotIt is not a gift, Mr. Rearden. It is your own money. But I have one favor to ask of you. It is a request, not a condition, because there can be no such thing as conditional property. The gold is yours, so you are free to use it as you please. But I risked my life to bring it to you tonight, so I am asking, as a favor, that you save it for the future or spend it on yourself. On nothing but your own comfort and pleasure. Do not give it away and, above all, do not put it into your business.&quot
             </p>
             <div className={styles.abstractLogos}>
               <Image className={styles.abstractLogo} src="/images/logo_rocket.png" fill alt="" />

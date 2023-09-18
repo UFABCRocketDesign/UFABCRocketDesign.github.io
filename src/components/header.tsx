@@ -1,12 +1,13 @@
 import styles from './header.module.scss';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 export default function Header(): JSX.Element {
     return (
         <header className={styles.header}>
             <Link href="/" passHref className={styles.logo}>
-                <img src="/images/logoHorizontal.svg" alt="Logo" />
+                <Image className={styles.logoImg} src="/images/logoHorizontal.svg" fill alt="Logo" />
             </Link>
 
             <ul className={styles.nav}>
