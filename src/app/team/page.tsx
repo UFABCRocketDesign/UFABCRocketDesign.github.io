@@ -1,13 +1,13 @@
 import styles from '../../styles/team.module.scss';
 import { DoubleArrowRotateIcon, MicroChipIcon, EarthIcon } from '../../components/icons';
 import Image from 'next/image';
-// import team from '../../../data/team.json';
+import team from '../../../data/team.json';
 
 
 // file ID: 141Qu2apXdlOTrQ1PjM8N3jQBlU_k0h6S
 // https://drive.google.com/uc?export=download&id=141Qu2apXdlOTrQ1PjM8N3jQBlU_k0h6S
 
-import team from 'https://www.googleapis.com/drive/v3/files/141Qu2apXdlOTrQ1PjM8N3jQBlU_k0h6S?alt=media&key=[YOUR_API_KEY]s';
+//import team from 'https://www.googleapis.com/drive/v3/files/141Qu2apXdlOTrQ1PjM8N3jQBlU_k0h6S?alt=media&key=[YOUR_API_KEY]s';
 
 import { Metadata } from 'next';
 
