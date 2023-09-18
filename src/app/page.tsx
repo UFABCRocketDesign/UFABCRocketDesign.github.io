@@ -8,19 +8,69 @@ export default function Home() {
 
     <>
       <div className={styles.banner} >
-        <Image src="/Logotipo Novo Azul.png" alt="Banner"
-          width={500}
-          height={280}
-          sizes="100vw"
-          style={{
-            width: "auto",
-            height: "80%",
-            display: "block",
-            margin: "auto",
-            
-          }} />
+        {/* We have 3 sections, one with photos on the left, one with abtract on the right, and one with sponsors on the bot */}
+        <div className={styles.bannerLine}>
+          <div className={styles.photos}>
+            <div className={styles.bigPhotoContainer}>
+              <Image className={styles.bigPhoto} src="/images/Atlas.JPG" fill alt="" />
+            </div>
+            <div className={styles.smallPhotoContainer}>
+              <Image className={styles.smallPhoto} src="/images/Thousand_Sunny.webp" fill alt="" />
+            </div>
+          </div>
+          <div className={styles.abstract}>
+            <h1 className={styles.title}>
+              UFABC Rocket Design
+            </h1>
+            <p className={styles.description}>
+              "When robbery is done in open daylight by sanction of the law, as it is done today, then any act of honor or restitution has to be hidden underground."
+
+              "What made you think that I'd accept a gift of this kind?"
+
+              "It is not a gift, Mr. Rearden. It is your own money. But I have one favor to ask of you. It is a request, not a condition, because there can be no such thing as conditional property. The gold is yours, so you are free to use it as you please. But I risked my life to bring it to you tonight, so I am asking, as a favor, that you save it for the future or spend it on yourself. On nothing but your own comfort and pleasure. Do not give it away and, above all, do not put it into your business."
+            </p>
+            <div className={styles.abstractLogos}>
+              <Image className={styles.abstractLogo} src="/images/logo_rocket.png" fill alt="" />
+              <Image className={styles.abstractLogo} src="/images/logo_ufabc.png" fill alt="" />
+            </div>
+          </div>
+        </div>
+        <div className={styles.sponsors}>
+          <div className={styles.sponsorContainer}>
+            <Image className={styles.sponsor} src="/images/sponsors/Baratie.webp" fill alt="" />
+          </div>
+          <div className={styles.sponsorContainer}>
+            <Image className={styles.sponsor} src="/images/sponsors/Baroque_Works_Infobox.webp" fill alt="" />
+          </div>
+          <div className={styles.sponsorContainer}>
+            <Image className={styles.sponsor} src="/images/sponsors/Revolutionary_Army_Infobox.webp" fill alt="" />
+          </div>
+        </div>
       </div>
-      <div className={styles.body}>
+
+      {/* Seção de projetos */}
+
+      <div className={styles.projects}>
+        <div className={styles.title}>
+          <h1>Nossos Projetos</h1>
+        </div>
+        <div className={styles.projectsContainer}>
+          <div className={styles.projectPatch}>
+            {/* Make iteractive over a json sheet */}
+            <Image className={styles.projectPatchImage} src="/images/projects/missao-liberty.png" fill alt="" />
+            <h5 className={styles.projectName}>Missão Liberty</h5>
+          </div>
+        </div>
+        <div className={styles.buttonContainer}>
+          <button className={styles.pageButton}>Ver mais</button>
+        </div>
+      </div>
+
+      {/* Seção da equipe */}
+      {/* Rocket Boosters?? */}
+      {/* Doe*/}
+
+      {/* <div className={styles.body}>
         <div className={styles.row}>
           <h1 className={styles.title}>
             <span>Ad astra abyssosque</span>
@@ -60,7 +110,7 @@ export default function Home() {
 
         <div className={styles.video}>
           {/* <!-- TODO: implementar um video mp3 --> */}
-          <iframe width="560" height="315"
+      {/* <iframe width="560" height="315"
             src="https://www.youtube.com/embed/c8MLKuc4Rxc?autoplay=1"
             title="YouTube video player"
             frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -76,7 +126,7 @@ export default function Home() {
                 alt=''
                 width={500}
                 height={500}
-                
+
                 style={{
                   width: "100%",
                   height: "auto",
@@ -91,14 +141,14 @@ export default function Home() {
             </div>
             {/* <!-- TODO: implementar um a seção de sistema de pesquisa --> */}
 
-          </div>
+      {/* </div>
           <div className={styles.highlightCol}>
             <h2 className={styles.highlightText}>
               Estamos criando tecnologias para a nova geração de exploradores
             </h2>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
