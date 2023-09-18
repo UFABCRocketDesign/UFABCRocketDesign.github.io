@@ -194,3 +194,68 @@
     width: 100%;
     position: relative !important;
 }
+
+.projects {
+    background-color: white;
+    padding: 2rem;
+}
+
+.projects > * {
+    color : black;
+}
+
+.projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+    column-gap: 5%;
+    padding: 0;
+}
+
+.projectPatch{
+    height: 80%;
+
+}
+
+.projectPatchImage {
+    position: relative !important;
+    overflow: hidden;
+    // width: auto !important;
+    height: auto !important;
+}
+
+.projectName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    color: black;
+}
+
+.banner {
+    margin-bottom: 5%;
+}
+
+.banner > * {
+    color : white;
+}
+
+.pageButton {
+    border-radius: 0.25rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    align-self: center !important;
+    text-transform: none;
+    word-wrap: break-word;
+    font-family: $font-title;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}

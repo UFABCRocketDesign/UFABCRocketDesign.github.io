@@ -48,8 +48,29 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Seção de projetos */}
 
-      <div className={styles.body}>
+      <div className={styles.projects}>
+        <div className={styles.title}>
+          <h1>Nossos Projetos</h1>
+        </div>
+        <div className={styles.projectsContainer}>
+          <div className={styles.projectPatch}>
+            {/* Make iteractive over a json sheet */}
+            <Image className={styles.projectPatchImage} src="/images/projects/missao-liberty.png" fill alt="" />
+            <h5 className={styles.projectName}>Missão Liberty</h5>
+          </div>
+        </div>
+        <div className={styles.buttonContainer}>
+          <button className={styles.pageButton}>Ver mais</button>
+        </div>
+      </div>
+
+      {/* Seção da equipe */}
+      {/* Rocket Boosters?? */}
+      {/* Doe*/}
+
+      {/* <div className={styles.body}>
         <div className={styles.row}>
           <h1 className={styles.title}>
             <span>Ad astra abyssosque</span>
@@ -89,7 +110,7 @@ export default function Home() {
 
         <div className={styles.video}>
           {/* <!-- TODO: implementar um video mp3 --> */}
-          <iframe width="560" height="315"
+      {/* <iframe width="560" height="315"
             src="https://www.youtube.com/embed/c8MLKuc4Rxc?autoplay=1"
             title="YouTube video player"
             frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -120,14 +141,14 @@ export default function Home() {
             </div>
             {/* <!-- TODO: implementar um a seção de sistema de pesquisa --> */}
 
-          </div>
+      {/* </div>
           <div className={styles.highlightCol}>
             <h2 className={styles.highlightText}>
               Estamos criando tecnologias para a nova geração de exploradores
             </h2>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
