@@ -73,7 +73,7 @@ export default function Home() {
         </div>
         <div className={styles.teamDescription}>
           <p className={styles.description}>
-            In the last moment of his life, he turned his fading "flame of life" into a huge fire that enveloped the world. I've never laughed more than on that day...!! I've never cried more than on that day... I've never drank more either..!! He was our captain... and he was a magnificent man...!!!
+            In the last moment of his life, he turned his fading &quot;flame of life&quot; into a huge fire that enveloped the world. I&apos;ve never laughed more than on that day...!! I&apos;ve never cried more than on that day... I&apos;ve never drank more either..!! He was our captain... and he was a magnificent man...!!!
           </p>
         </div>
         <div className={styles.buttonContainer}>
