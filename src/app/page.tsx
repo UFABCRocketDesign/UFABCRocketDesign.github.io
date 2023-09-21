@@ -22,11 +22,11 @@ export default function Home() {
               UFABC Rocket Design
             </h1>
             <p className={styles.description}>
-              &quotWhen robbery is done in open daylight by sanction of the law, as it is done today, then any act of honor or restitution has to be hidden underground.&quot
+              &quot;When robbery is done in open daylight by sanction of the law, as it is done today, then any act of honor or restitution has to be hidden underground.&quot;
 
-              &quotWhat made you think that I&apos;d accept a gift of this kind?&quot
+              &quot;What made you think that I&apos;d accept a gift of this kind?&quot;
 
-              &quotIt is not a gift, Mr. Rearden. It is your own money. But I have one favor to ask of you. It is a request, not a condition, because there can be no such thing as conditional property. The gold is yours, so you are free to use it as you please. But I risked my life to bring it to you tonight, so I am asking, as a favor, that you save it for the future or spend it on yourself. On nothing but your own comfort and pleasure. Do not give it away and, above all, do not put it into your business.&quot
+              &quot;It is not a gift, Mr. Rearden. It is your own money. But I have one favor to ask of you. It is a request, not a condition, because there can be no such thing as conditional property. The gold is yours, so you are free to use it as you please. But I risked my life to bring it to you tonight, so I am asking, as a favor, that you save it for the future or spend it on yourself. On nothing but your own comfort and pleasure. Do not give it away and, above all, do not put it into your business.&quot;
             </p>
             <div className={styles.abstractLogos}>
               <Image className={styles.abstractLogo} src="/images/logo_rocket.png" fill alt="" />
@@ -66,8 +66,39 @@ export default function Home() {
       </div>
 
       {/* Seção da equipe */}
+
+      <div className={styles.team}>
+        <div className={styles.title}>
+          <h1>Nossa Equipe</h1>
+        </div>
+        <div className={styles.teamDescription}>
+          <p className={styles.description}>
+            In the last moment of his life, he turned his fading "flame of life" into a huge fire that enveloped the world. I've never laughed more than on that day...!! I've never cried more than on that day... I've never drank more either..!! He was our captain... and he was a magnificent man...!!!
+          </p>
+        </div>
+        <div className={styles.buttonContainer}>
+          <button className={styles.pageButton}>Ver mais</button>
+        </div>
+      </div>
+
       {/* Rocket Boosters?? */}
       {/* Doe*/}
+
+      <div className={styles.donate}>
+        <div className={styles.title}>
+          <h1>Doe</h1>
+        </div>
+        <div className={styles.donateContainer}>
+          <div className={styles.donateDescription}>
+            <p className={styles.description}>
+              For those that live too long, the friends of days gone by and scenes from their adventures live on in their memories. As such I have no regrets in meeting you, friend. Should the day ever come that we are not together, you will continue to shine like gold in my memories.
+            </p>
+          </div>
+          <div className={styles.donateButtonContainer}>
+            <button className={styles.donateButton}>BOTONS PARA O PAYPAL AQUI</button>
+          </div>
+        </div>
+      </div>
 
       {/* <div className={styles.body}>
         <div className={styles.row}>

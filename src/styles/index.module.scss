@@ -259,3 +259,28 @@
     display: flex;
     justify-content: center;
 }
+
+.team > * {
+    color: white;
+}
+
+.teamDescription {
+    margin: auto;
+    width: 80%;
+}
+.donate {
+    background-color: white;
+    padding: 2rem;
+}
+
+.donate > p {
+    color : black !important;
+}
+
+.donateContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    width: 80%;
+    margin: auto;
+}
