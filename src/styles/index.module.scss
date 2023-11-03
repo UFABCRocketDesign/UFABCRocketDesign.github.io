@@ -36,7 +36,8 @@
     align-items: center;
     margin-top: 2rem;
 }
-.abstractLogo{
+
+.abstractLogo {
     width: 20% !important;
     height: 20% !important;
     max-width: 100%;
@@ -57,6 +58,7 @@
     position: relative !important;
     overflow: hidden;
 }
+
 .row {
     // "row"
     --bs-gutter-x: 1.5rem;
@@ -200,8 +202,8 @@
     padding: 2rem;
 }
 
-.projects > * {
-    color : black;
+.projects> * {
+    color: black !important;
 }
 
 .projectsContainer {
@@ -213,7 +215,7 @@
     padding: 0;
 }
 
-.projectPatch{
+.projectPatch {
     height: 80%;
 
 }
@@ -238,8 +240,8 @@
     margin-bottom: 5%;
 }
 
-.banner > * {
-    color : white;
+.banner>* {
+    color: white;
 }
 
 .pageButton {
@@ -260,7 +262,7 @@
     justify-content: center;
 }
 
-.team > * {
+.team>* {
     color: white;
 }
 
@@ -268,13 +270,14 @@
     margin: auto;
     width: 80%;
 }
-.donate {
+
+.donates {
     background-color: white;
     padding: 2rem;
 }
 
-.donate > p {
-    color : black !important;
+.donates > * {
+    color: black !important;
 }
 
 .donateContainer {

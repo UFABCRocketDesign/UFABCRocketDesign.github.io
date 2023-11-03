@@ -84,7 +84,7 @@ export default function Home() {
       {/* Rocket Boosters?? */}
       {/* Doe*/}
 
-      <div className={styles.donate}>
+      <div className={styles.donates}>
         <div className={styles.title}>
           <h1>Doe</h1>
         </div>

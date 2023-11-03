@@ -41,5 +41,8 @@ h6 {
 p {
   font-family: $font-text;
   text-align: inherit;
-  // color: white;
+}
+
+body > * {
+  color: white;
 }
