@@ -36,13 +36,9 @@ export default function Projects() {
             {unfinisheds.map((rocket, index) => {
                 return (
                     <div className={styles.projectFeatured} key={index}>
-                        <Image src={rocket.image} alt={rocket.name} width={500} height={500}
-                            style={{
-                                width: "auto",
-                                height: "100%",
-                                borderRadius: "1rem",
-                                margin: "auto",
-                            }} />
+
+                        <Image className={styles.projectPatchImage} src={rocket.image} alt={rocket.name} fill />
+
                         <div className={styles.projectDetails}>
                             <h2 className={styles.projectTitle}>{rocket.name}</h2>
                             <p className={styles.projectDescription}>{rocket.description}</p>
@@ -57,14 +53,7 @@ export default function Projects() {
                     {finisheds.map((rocket, index) => {
                         return (
                             <div className={styles.project} key={index}>
-                                <Image src={rocket.image} alt={rocket.name} width={500} height={500}
-                                    style={{
-                                        width: "auto",
-                                        height: "80%",
-                                        borderRadius: "1rem",
-                                        margin: "auto",
-                                        aspectRatio: "4/3",
-                                    }} />
+                                <Image className={styles.projectPatchImage} src={rocket.image} alt={rocket.name} fill />
                                 <div className={styles.projectDetails}>
                                     <h2 className={styles.projectTitle}>{rocket.name}</h2>
                                     <p className={styles.projectDescription}>{rocket.description}</p>
@@ -74,6 +63,27 @@ export default function Projects() {
                         )
                     })}
                 </div>
+                {/* 
+                TODO: Implementar os projetos no modelo do site antigo, http://web.archive.org/web/20180724235621/http://ufabcrocketdesign.com.br/projetos.html, com informações técnicas e fotos
+                <div class="row">
+					<div class="four columns borda">
+						<img src="/web/20180724235621im_/http://ufabcrocketdesign.com.br/images/missao-boitata-logo.png" alt="">
+						<h5 class="subtitle-center">informações técnicas</h5>
+						<ul class="list-info">
+							<li><b>Objetivo:</b> Experimental.</li>
+							<li><b>Início:</b> Outubro de 2012.</li>
+							<li><b>Término:</b> Junho de 2013.</li>
+							<li><b>Apogeu Aproximado:</b> 1.000 m.</li>
+						</ul>
+					</div>
+					<div class="eight columns">
+						<h3 class="subtitle-center">Boitatá I</h3>
+						<p>O Boitatá I foi o primeiro projeto de um foguete completo da UFABC Rocket Design, contando com sistemas de propulsão, aviônica, recuperação e estrutura totalmente desenvolvidos pela equipe.</p>
+						<p>Para ser lançado no Centro de Estudos do Universo, em Brotas/SP, o Boitatá I teve que atender uma série de exigências técnicas, como cálculo de raio de segurança, sistemas de combate de incêndio e toda a estrutura oferecida pelo próprio CEU.</p>
+						<p>Pela primeira vez, foi feita uma estrutura de fibra de carbono, graças à parceria recém firmada com a ALLTEC Materiais Compostos. Dentre as novidades do foguete, estavam um sistema de eletrônica embarcada (feito com Arduino e servomotor) e um paraquedas de 1,3 m de diâmetro ejetado por molas.</p>
+						<p>Além disso, o combustível usado no motor do Boitatá I foi KNSU, replicado e testado pelo projeto Liberty. Antes do lançamento, que ocorreu em 29 de junho de 2013, foi feito um estudo fluodinâmico computacional (CFD). Por fim, o Boitatá I também foi destaque na I Semana das Engenharias da UFABC, tendo sido exposto no estande da equipe.</p>
+					</div>
+					</div> */}
             </div>
         </div>
     </>
