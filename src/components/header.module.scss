@@ -4,13 +4,10 @@
 .header {
     /* // "d-flex flex-wrap justify-content-center py-3 mb-4 bg-dark" */
     display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
-    padding-left: 10%;
-    padding-right: 10%;
-    box-shadow: 0px 0px 15px 5px black;
+    box-shadow: 0px 0px 15px 5px $black;
+    background-color: $dark-gray;
 }
 
 .logo {
@@ -21,12 +18,24 @@
     margin-left: 2rem !important;
     margin-right: auto !important;
     text-decoration: none !important;
-    font-family: $font-logo;
-    color: $primary-color;
-    font-size: 1.5rem !important;
+    color: $white;
+    font-size: 1rem !important;
 }
 .logoImg {
     position: relative !important;
+    max-height: 4rem;
+    max-width: 4rem;
+}
+
+.nameDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    min-width: fit-content;
+    h1{
+        font-size: 1rem;
+        margin: 0;
+    }
 }
 
 .nav {
@@ -36,20 +45,23 @@
     padding-left: 0;
     margin-top: 0 !important;
     margin-bottom: 0;
+    margin-right: 1rem;
     list-style: none;
     align-content: center;
+    font-family: $font-title;
 }
 
 .navLink {
     // "nav-link"
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 1rem;
     color: white;
     text-decoration: none;
+    font-weight: 600;
     transition: color 0.15s ease-in-out;
 }
 
 .navLink:hover {
     // "nav-link:hover"
-    color: $primary-color;
+    color: $light-gray;
 }
