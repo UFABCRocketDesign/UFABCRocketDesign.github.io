@@ -15,11 +15,11 @@ export default function Header(): JSX.Element {
             </Link>
 
             <ul className={styles.nav}>
-                <li ><Link href="about" passHref className={styles.navLink}>A ENTIDADE</Link></li>
-                <li ><Link href="team" passHref className={styles.navLink}>A EQUIPE</Link></li>
-                <li ><Link href="projects" passHref className={styles.navLink}>MISSÕES</Link></li>
-                <li ><Link href="researchs" passHref className={styles.navLink}>NOTÍCIAS</Link></li>
-                <li ><Link href="sponsors" passHref className={styles.navLink}>APOIO</Link></li>
+                <li ><Link href="a_entidade" passHref className={styles.navLink}>A ENTIDADE</Link></li>
+                <li ><Link href="a_equipe" passHref className={styles.navLink}>A EQUIPE</Link></li>
+                <li ><Link href="missoes" passHref className={styles.navLink}>MISSÕES</Link></li>
+                <li ><Link href="noticias" passHref className={styles.navLink}>NOTÍCIAS</Link></li>
+                <li ><Link href="apoio" passHref className={styles.navLink}>APOIO</Link></li>
             </ul>
 
         </header>
