@@ -2,13 +2,12 @@
 
 .footer {
     // container pt-5
+    background-color: $white;
     padding-top: 3rem !important;
-    max-width: 1140px;
     width: 100%;
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
-    margin-right: auto;
-    margin-left: auto;
+    bottom: 0;
 }
 
 .socialIcons {
@@ -55,17 +54,31 @@
 
 }
 
+.grupoLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img{
+        max-height: 7.5rem;
+        max-width: 7.5rem;
+        position: relative !important;
+        padding-right: 1rem;
+    }
+}
+
 .textLogo {
     // "h1 text-decoration-none"
     text-decoration: none !important;
     color: $primary-color;
-    font-family: $font-logo;
     font-size: 2.5rem;
+    padding-left: 1rem;
     align-self: center;
 }
 
 .quote {
-    // col
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 1 0 0%;
     color: $secondary-color;
 }
@@ -96,7 +109,8 @@
     text-decoration: none !important;
     font-size: 1rem !important;
     text-align: end;
-    color: white;
+    color: black;
+    padding-right: 1rem;
 }
 .navItem:hover{
     color: $tertiary-color;
@@ -110,9 +124,9 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 0.5rem;
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    margin-left: calc(-0.5 * var(--bs-gutter-x));
-    border-top: 1px solid #dee2e6 !important;
+    margin-right: calc(0.5 * var(--bs-gutter-x));
+    margin-left: calc(0.5 * var(--bs-gutter-x));
+    border-top: 1px solid $black !important;
     text-align: center !important;
 }
 
@@ -125,4 +139,5 @@
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
     margin-top: var(--bs-gutter-y);
+    color: $primary-color;
 }

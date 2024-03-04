@@ -7,19 +7,19 @@ export default function Header(): JSX.Element {
     return (
         <header className={styles.header}>
             <Link href="/" passHref className={styles.logo}>
-                <Image className={styles.logoImg} src="/images/logoHorizontal.svg" fill alt="Logo" />
+                <Image className={styles.logoImg} src="/images/logo_rocket.png" fill alt="Logo" />
+                <div className={styles.nameDiv}>
+                    <h1>UFABC</h1>
+                    <h1>ROCKET DESIGN</h1>
+                </div>
             </Link>
 
             <ul className={styles.nav}>
-                <li ><Link href="about" passHref className={styles.navLink}>Sobre</Link></li>
-                <li ><Link href="team" passHref className={styles.navLink}>Equipe</Link></li>
-                <li ><Link href="projects" passHref className={styles.navLink}>Projetos</Link></li>
-                <li ><Link href="researchs" passHref className={styles.navLink}>Pesquisas</Link></li>
-                <li ><Link href="sponsors" passHref className={styles.navLink}>Patrocinadores</Link></li>
-                <li ><Link href="help" passHref className={styles.navLink}>Ajude-nos</Link></li>
-
-                <li ><Link href="joinus" passHref className={styles.navLink}>Processo Seletivo</Link></li>
-                {/* <li ><Link href="contacts" className={styles.navLink}>Contatos</Link></li> */}
+                <li ><Link href="a_entidade" passHref className={styles.navLink}>A ENTIDADE</Link></li>
+                <li ><Link href="a_equipe" passHref className={styles.navLink}>A EQUIPE</Link></li>
+                <li ><Link href="missoes" passHref className={styles.navLink}>MISSÕES</Link></li>
+                <li ><Link href="noticias" passHref className={styles.navLink}>NOTÍCIAS</Link></li>
+                <li ><Link href="apoio" passHref className={styles.navLink}>APOIO</Link></li>
             </ul>
 
         </header>
