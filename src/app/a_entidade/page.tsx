@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-import styles from '../../styles/about.module.scss'
+import styles from '../../styles/a_entidade.module.scss'
 
 export const metadata: Metadata = {
     title: 'Sobre - UFABC Rocket Design',
@@ -24,5 +24,5 @@ export default function About() {
             
         </div>
     </>
-    )
+    ) 
 }

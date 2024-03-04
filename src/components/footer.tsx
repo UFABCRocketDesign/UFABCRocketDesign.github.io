@@ -22,15 +22,15 @@ export default function Footer() {
                 <div className={styles.quote}>
                     <p className={styles.quoteText}>&quot;Per Aspera Ad Astra&quot;
                     </p>
-                    <p className={styles.quoteAuthor}>Pelas dificuldades, aos astros
+                    <p className={styles.quoteAuthor}>Através das dificuldades, até as estrelas
                     </p>
                 </div>
                 <div className={styles.nav}>
-                    <Link href='team' passHref className={styles.navItem}>A entidade</Link>
-                    <Link href='' passHref className={styles.navItem}>A equipe</Link>
-                    <Link href='' passHref className={styles.navItem}>Missões</Link>
-                    <Link href='' passHref className={styles.navItem}>Notícias</Link>
-                    <Link href='' passHref className={styles.navItem}>Apoio</Link>
+                    <Link href='a_entidade' passHref className={styles.navItem}>A entidade</Link>
+                    <Link href='a_equipe' passHref className={styles.navItem}>A equipe</Link>
+                    <Link href='missoes' passHref className={styles.navItem}>Missões</Link>
+                    <Link href='noticias' passHref className={styles.navItem}>Notícias</Link>
+                    <Link href='apoio' passHref className={styles.navItem}>Apoio</Link>
                 </div>
             </div>
             <div className={styles.credits}>
