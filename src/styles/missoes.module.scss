@@ -1,0 +1,44 @@
+@import 'variables';
+@import 'general';
+
+.projectDetails {
+    // flex: 1;
+    margin: auto;
+    // Get the padding from the style object
+    padding: 5%;
+    width: 100%;
+}
+
+.projectTitle {
+
+    margin-bottom: 10px;
+}
+
+.projectDescription {
+    margin-bottom: 10px;
+}
+
+.projectFeatured {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    width: 50%;
+    flex: 0 0 auto;
+    display: flex;
+}
+
+.projectPatchImage {
+    position: relative !important;
+    overflow: hidden;
+    width: 40% !important;
+    height: auto !important;
+    
+}

@@ -2,7 +2,7 @@
 import { Metadata } from 'next';
 
 
-import styles from '../../styles/researchs.module.scss'
+import styles from '../../styles/noticias.module.scss'
 // Beginning of page with the current project featured, followed by a list of all projects
 
 export const metadata: Metadata = {
