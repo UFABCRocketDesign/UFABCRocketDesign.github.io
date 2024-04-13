@@ -7,7 +7,7 @@
     padding-right: 2.5%;
     padding-top: 3%;
     height: 100%;
-    min-height: 82vh;
+    min-height: 90vh;
 }
 
 .body {
@@ -26,7 +26,12 @@
 .abstract {
     flex: 60%;
     display: flex;
+    @media (max-width: 1079px) {
+        flex-direction: column;
+    }
 }
+
+
 
 .abstractText{
     p{
@@ -36,6 +41,10 @@
         font-size: 1.75rem;
         line-break: auto;
         text-align: justify;
+        @media (max-width: 1079px) {
+            margin: auto;
+            text-indent: 3rem;
+        }
     }
 }
 
@@ -57,6 +66,9 @@
         width: 15rem !important;
         height: 15rem !important;
         position: relative !important;
+    }
+    @media (max-width: 1079px) {
+        margin: auto;
     }
 }
 
@@ -191,6 +203,12 @@
         position: relative !important;
         max-width: 50%;
         border-radius: 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+        @media (max-width: 1079px) {
+            max-width: 75%;
+        }
+        
     }
 }
 

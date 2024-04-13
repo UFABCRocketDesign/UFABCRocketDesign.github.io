@@ -4,8 +4,40 @@
 .container {
     align-content: center;
     min-height: 41vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.stars{
+	width:100%; 
+	background: #000 url('https://i.ibb.co/g91MwKZ/stars.png') repeat top center;
 }
 
 .description {
     text-align: justify;
+}
+
+.historia{
+    margin: 0 0 0 2.5%;
+    width: 33%;
+}
+
+.divisao{
+    display: flex;
+    width: 30%;
+    height: 80vh;
+    justify-content: center;
+    .foguete{
+        margin: auto;
+        position: relative !important;
+        height: 90% !important;
+        width: auto !important;
+    }
+}
+
+
+
+.mvo{
+    width: 33%;
+    padding-top: 6.25rem;
 }

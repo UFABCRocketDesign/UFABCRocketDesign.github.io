@@ -49,6 +49,9 @@
     list-style: none;
     align-content: center;
     font-family: $font-title;
+    @media (max-width: 744px) {
+        display: none;
+    }
 }
 
 .navLink {
@@ -64,4 +67,48 @@
 .navLink:hover {
     // "nav-link:hover"
     color: $light-gray;
+}
+
+.menuToggle{
+    display: none;
+}
+
+.hamburgerMenu{
+    display: flex;
+    min-width: 4rem;
+    img{
+        max-height: 3rem;
+        max-width: 3rem;
+        margin: auto 0;
+        position: relative !important;
+    }
+    @media (min-width: 745px) {
+        display: none !important;
+    }
+}
+
+.menuNav{
+    position: relative;
+    bottom: 1rem;
+    z-index: 99;
+    background-color: $dark-gray;
+    color: $offwhite;
+    height: 100%;
+    width: 50%;
+    transition: 1.5s;
+    ul{
+        list-style: none;
+        li{
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.blur{
+    position: absolute;
+    z-index: 98;
+    top: 6rem;
+    height: 93%;
+    width: 100%;
+    backdrop-filter: blur(5px);
 }
