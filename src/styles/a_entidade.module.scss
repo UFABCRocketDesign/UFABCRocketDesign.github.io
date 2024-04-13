@@ -6,6 +6,24 @@
     min-height: 41vh;
     display: flex;
     flex-direction: row;
+
+    h1{
+        color: #F0F5E3;
+        text-shadow: $primary-color 0 0.75rem 0.75rem;
+        font-size: 3.125rem;
+        text-transform: uppercase;
+    }
+    h2{
+        color: #F0F5E3;
+        text-shadow: $primary-color 0 0.75rem 0.75rem;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 1.8rem;
+        text-align: justify;
+        text-indent: 3rem;
+    }
 }
 
 .stars{
