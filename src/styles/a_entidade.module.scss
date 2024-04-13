@@ -20,22 +20,6 @@
 .historia{
     margin: 0 0 0 2.5%;
     width: 33%;
-    h1{
-        color: $offwhite;
-        text-shadow: $primary-color 0 0.75rem 0.75rem;
-        font-size: 3.125rem;
-        text-transform: uppercase;
-    }
-    h2{
-        color: $offwhite;
-        text-shadow: $primary-color 0 0.75rem 0.75rem;
-        font-size: 2.5rem;
-        text-transform: uppercase;
-    }
-    p{
-        font-size: 1.8rem;
-        text-align: justify;
-    }
 }
 
 .divisao{
@@ -56,14 +40,4 @@
 .mvo{
     width: 33%;
     padding-top: 6.25rem;
-    h2{
-        color: $offwhite;
-        text-shadow: $primary-color 0 0.75rem 0.75rem;
-        font-size: 2.5rem;
-        text-transform: uppercase;
-    }
-    p{
-        font-size: 1.8rem;
-        text-align: justify;
-    }
 }

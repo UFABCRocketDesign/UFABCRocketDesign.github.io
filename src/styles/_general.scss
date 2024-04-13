@@ -10,6 +10,24 @@
     margin-right: auto;
     margin-bottom: 3rem;
     // display: flex;
+
+    h1{
+        color: $offwhite;
+        text-shadow: $primary-color 0 0.75rem 0.75rem;
+        font-size: 3.125rem;
+        text-transform: uppercase;
+    }
+    h2{
+        color: $offwhite;
+        text-shadow: $primary-color 0 0.75rem 0.75rem;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 1.8rem;
+        text-align: justify;
+        text-indent: 3rem;
+    }
 }
 .subTitle {
     text-align: center;

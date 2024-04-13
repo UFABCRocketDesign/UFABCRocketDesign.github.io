@@ -44,6 +44,9 @@
     margin-left: calc(-0.5 * var(--bs-gutter-x));
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
+    @media (max-width:525px) {
+        flex-direction: column;
+    }
 }
 
 .logo {
@@ -51,6 +54,9 @@
     display: flex;
     flex: 1 0 0%;
     justify-content: flex-start !important;
+    @media (max-width:525px) {
+        justify-content: center !important;
+    }
 
 }
 
@@ -63,6 +69,10 @@
         max-width: 7.5rem;
         position: relative !important;
         padding-right: 1rem;
+        @media (max-width:924px) {
+            max-height: 3.75rem;
+            max-width: 3.75rem;
+        }
     }
 }
 
@@ -73,6 +83,9 @@
     font-size: 2.5rem;
     padding-left: 1rem;
     align-self: center;
+    @media (max-width:924px) {
+        font-size: 1.25rem;
+    }
 }
 
 .quote {
