@@ -16,7 +16,7 @@ rockets.forEach((rocket) => {
     }
 })
 
-import styles from '../../styles/projects.module.scss'
+import styles from '../../styles/missoes.module.scss'
 // Beginning of page with the current project featured, followed by a list of all projects
 
 export const metadata: Metadata = {

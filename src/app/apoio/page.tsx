@@ -1,7 +1,7 @@
 
 import { Metadata } from 'next';
 
-import styles from '../../styles/sponsors.module.scss'
+import styles from '../../styles/apoio.module.scss'
 // Beginning of page with the current project featured, followed by a list of all projects
 
 // import  {sponsors} from '../../../data/sponsors.json'
