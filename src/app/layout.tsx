@@ -1,13 +1,12 @@
 import '../styles/globals.scss'
 import { Inter } from 'next/font/google'
 
-import Header from '../components/header'
-import Footer from '../components/footer'
 
-const inter = Inter({ subsets: ['latin'] })
+import Body from '@/components/body'
+
 
 export const metadata = {
-  title: 'UFBAC Rocket Design - Upgrades people! Upgrades',
+  title: 'UFBAC Rocket Design',
   description: 'Upgrades people! Upgrades',
 }
 
@@ -17,13 +16,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
 
-      <body className={inter.className}>
-        <Header />
+      <Body>
         {children}
-        <Footer />
-      </body>
+      </Body>
 
     </html>
   )
