@@ -19,6 +19,7 @@ export default function About() {
             </div>
             <div className={styles.divisao}>
                 <Image className={styles.foguete} src="/images/foguete.png" fill alt="Logomarca UFABC Rocket Design" />
+                <Image className={styles.foguete_horizontal} src="/images/foguete_horizontal.png" fill alt="Logomarca UFABC Rocket Design" />
             </div>
             <div className={styles.mvo}>
                 <h2>Missão e Valores</h2>
