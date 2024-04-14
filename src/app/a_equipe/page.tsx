@@ -1,7 +1,5 @@
 import styles from '../../styles/a_equipe.module.scss';
-import { DoubleArrowRotateIcon, MicroChipIcon, EarthIcon } from '../../components/icons';
 import Image from 'next/image';
-import team from '../../../data/team.json';
 
 
 // file ID: 141Qu2apXdlOTrQ1PjM8N3jQBlU_k0h6S
@@ -12,14 +10,14 @@ import team from '../../../data/team.json';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Quem somos - UFABC Rocket Design',
-    description: 'Where\'s the One Piece?',
+    title: 'A Equipe - UFABC Rocket Design',
+    description: '',
 }
 
-const teamList = team.team;
 
 export default function Team() {
     return (
+    <>
         <section className={`${styles.container} ${styles.stars}`}>
             <h1>A Equipe</h1>
             <div className={styles.conteudo1}>
@@ -41,5 +39,7 @@ export default function Team() {
                 <p>Fusce nec ex vitae lacus tempor iaculis commodo eu metus. Donec at metus interdum, malesuada ante at, mattis nulla. Proin at urna in lorem semper eleifend. In finibus condimentum fringilla. Maecenas ultrices, augue et maximus suscipit, arcu ipsum tincidunt tortor, ac tempus urna est et est. </p>
             </div>
         </section>
+    </>
+        
     );
 }
