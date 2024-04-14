@@ -4,8 +4,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React, {useState} from 'react';
 
-export default function Header(){
-    const [menuStatus, setMenuStatus] = useState<boolean>(false);
+interface HeaderProps{
+    menuStatus: boolean;
+    setMenuStatus:any
+}
+
+export default function Header({menuStatus, setMenuStatus}: HeaderProps){
 
     return (
         <header className={styles.header}>
