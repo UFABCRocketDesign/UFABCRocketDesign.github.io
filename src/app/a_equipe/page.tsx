@@ -1,7 +1,5 @@
-import styles from '../../styles/team.module.scss';
-import { DoubleArrowRotateIcon, MicroChipIcon, EarthIcon } from '../../components/icons';
+import styles from '../../styles/a_equipe.module.scss';
 import Image from 'next/image';
-import team from '../../../data/team.json';
 
 
 // file ID: 141Qu2apXdlOTrQ1PjM8N3jQBlU_k0h6S
@@ -12,85 +10,36 @@ import team from '../../../data/team.json';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Quem somos - UFABC Rocket Design',
-    description: 'Where\'s the One Piece?',
+    title: 'A Equipe - UFABC Rocket Design',
+    description: '',
 }
 
-const teamList = team.team;
 
 export default function Team() {
-    return (<>
+    return (
+    <>
+        <section className={`${styles.container} ${styles.stars}`}>
+            <h1>A Equipe</h1>
+            <div className={styles.conteudo1}>
+                <div className={styles.divEsq}>
+                    <span>XX</span>
+                    <h2>Já atuaram</h2>
+                </div>
+                <div className={styles.containerFoto}>
+                    <Image className={styles.foto} src="/gallery/foto_rg_2024_1.jpg" fill alt="" />
+                </div>
+                <div className={styles.divDir}>
+                    <span>XX</span>
+                    <h2>Membros ativos</h2>
+                </div>
+            </div>
+            <div className={styles.conteudo2}>
+                <p>In fringilla fringilla nulla. Vestibulum felis enim, convallis quis nisi quis, maximus ornare ante. Proin in tortor posuere tellus posuere scelerisque sit amet a diam. Aliquam mattis eros eu ex vulputate pretium.Nunc quam diam, tincidunt eget augue sit amet, sodales faucibus turpis. Pellentesque habitant morbi tristique. </p>
+                <p>Aliquam erat volutpat. Ut a sodales libero, ac scelerisque eros. Morbi magna odio, commodo blandit neque vel, rutrum varius arcu.Donec eget eros vel purus consectetur suscipit. Praesent congue elementum dolor eu congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Fusce nec ex vitae lacus tempor iaculis commodo eu metus. Donec at metus interdum, malesuada ante at, mattis nulla. Proin at urna in lorem semper eleifend. In finibus condimentum fringilla. Maecenas ultrices, augue et maximus suscipit, arcu ipsum tincidunt tortor, ac tempus urna est et est. </p>
+            </div>
+        </section>
+    </>
         
-        <div className={styles.container}>
-            <h1 className={styles.title}>Conheça a equipe</h1>
-            <p>As such I have no regrets in meeting you, friend. Should the day ever come that we are not together, you will continue to shine like gold in my memories. </p>
-        </div>
-
-        <div className={styles.container}>
-            <h2 className={styles.subTitle}>Nossos Valores</h2>
-            <div className={styles.valuesList}>
-                <div className={styles.valuesItem}>
-                    <div className={styles.valuesIcon}><DoubleArrowRotateIcon /></div>
-                    <p>Desenvolvimento de tecnologia de ponta</p>
-                </div>
-                <div className={styles.valuesItem}>
-                    <div className={styles.valuesIcon}><MicroChipIcon /></div>
-                    <p>Apoiando pesquisadores</p>
-                </div>
-                <div className={styles.valuesItem}>
-                    <div className={styles.valuesIcon}><EarthIcon /></div>
-                    <p>Projetos focados na melhoria da area aeroespacial</p>
-                </div>
-            </div>
-        </div>
-
-        <div className={styles.container}>
-            <h2 className={styles.subTitle}>Nosso Time</h2>
-            <div className={styles.team}>
-                {teamList.map((person, index) => {
-                    return (
-                        <>
-                            <div className={styles.person}
-                            // onClick={() => document.getElementById('modal' + index.toString())!.style.display = 'flex'}
-                            >
-                                    <Image src={person.photo} alt={person.name}
-                                        height={1500}
-                                        width={1500}
-                                        style={{
-                                            width: "100%",
-                                            height: "auto",
-                                            aspectRatio: "1/1",
-                                            borderRadius: "50%",
-
-                                        }} />
-                                <div >
-                                    <h4 className={styles.personName}>{person.name}</h4>
-                                    <p className={styles.personTitle}>{person.role}</p>
-                                </div>
-                            </div>
-                            <div className={styles.modal} id={'modal' + index.toString()}
-                            // onClick={(event) => {
-                            //     let modal = document.getElementById('modal' + index.toString());
-                            //     if (event.target == modal) {
-                            //         modal.style.display = "none";
-                            //     }
-                            // }}
-                            >
-                                <div className={styles.personDetails}>
-                                    <div className={styles.personPhotoModal}>
-                                        <Image src={person.photo} alt={person.name}
-                                            height={150}
-                                            width={150} />
-                                    </div>
-                                    <div className={styles.personInfo}>
-                                        <h4 className={styles.personName}>{person.name} - {person.role} </h4>
-                                        <p className={styles.personTitle}>{person.text}</p>
-                                    </div>
-                                </div>
-                            </div></>
-                    )
-                })}
-            </div>
-        </div>
-    </>);
+    );
 }

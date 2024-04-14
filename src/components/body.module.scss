@@ -3,3 +3,18 @@
 .block{
     overflow:hidden
 }
+
+/* Chrome, Edge, and Safari */
+.body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .body::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .body::-webkit-scrollbar-thumb {
+    background-color: $primary-color;
+    border-radius: 3px;
+    border: 20px none $primary-color;
+  }

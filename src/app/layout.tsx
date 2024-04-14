@@ -2,8 +2,10 @@ import '../styles/globals.scss'
 import { Inter } from 'next/font/google'
 
 
-import Body from '@/components/body'
+import styles from '../styles/layout.module.scss';
+import Body from '@/components/body';
 
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'UFBAC Rocket Design',
