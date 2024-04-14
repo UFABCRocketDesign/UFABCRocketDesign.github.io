@@ -49,6 +49,11 @@
     height: 30%;
     justify-content: center;
 
+    @media (max-width: 1079px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .divEsq{
         display: flex;
         flex-direction: column;
@@ -62,23 +67,26 @@
             text-align: end;
             margin: 0;
         }
+        @media (max-width: 1079px) {
+            width: 90%;
+        }
     }
 
     .containerFoto{
         max-width: 40%;
+        display: flex;
+        justify-content: center;
+        @media (max-width: 1079px) {
+            max-width: 90%;
+        }
         .foto{
             position: relative !important;
             max-width: 100%;
             border-radius: 5%;
             margin-top: auto;
             margin-bottom: auto;
-            @media (max-width: 1079px) {
-                max-width: 75%;
-            }
-            @media (max-width: 1079px) {
-                max-width: 90%;
-            }
         }
+        
     }
 
     .divDir{
@@ -90,6 +98,10 @@
         h2{
             margin: 0;
         }
+        @media (max-width: 1079px) {
+            width: 90%;
+            flex-direction: column-reverse;
+        }
     }
 }
 
@@ -97,9 +109,16 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    @media (max-width: 1079px) {
+        flex-direction: column;
+        align-items: center;
+    }
     p{
         width: 25%;
         text-indent: 0;
         margin: 1.5rem 2rem;
+        @media (max-width: 1079px) {
+            width: 90%;
+        }
     }
 }
