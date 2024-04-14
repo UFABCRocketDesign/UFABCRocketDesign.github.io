@@ -64,6 +64,7 @@
         margin: 0 0 0 2.5%;
         @media (max-width: 455px) {
             font-size: 2rem;
+            max-width: 8rem !important;
         }
     }
     img{
