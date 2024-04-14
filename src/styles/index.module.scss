@@ -45,6 +45,9 @@
             margin: auto;
             text-indent: 3rem;
         }
+        @media (max-width: 455px) {
+            font-size: 1.5rem;
+        }
     }
 }
 
@@ -61,11 +64,19 @@
         font-size: 3.125rem;
         max-width: 15rem;
         margin: 0 0 0 2.5%;
+        @media (max-width: 455px) {
+            font-size: 2rem;
+        }
     }
     img{
         width: 15rem !important;
         height: 15rem !important;
         position: relative !important;
+        @media (max-width: 455px) {
+            margin: auto;
+            width: 5rem !important;
+            height: 5rem !important;
+        }
     }
     @media (max-width: 1079px) {
         margin: auto;
@@ -80,6 +91,10 @@
         max-height: 5%;
         margin-right: 5%;
         position: relative !important;
+        @media (max-width: 1079px) {
+            max-width: 10%;
+            max-height: 10%;
+        }
     }
 }
 
@@ -208,7 +223,9 @@
         @media (max-width: 1079px) {
             max-width: 75%;
         }
-        
+        @media (max-width: 1079px) {
+            max-width: 90%;
+        }
     }
 }
 
