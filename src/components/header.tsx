@@ -33,7 +33,7 @@ export default function Header({menuStatus, setMenuStatus}: HeaderProps){
                 <Image src="/images/icone-menu.png" fill alt="menu de navegação" onClick={() => setMenuStatus(!menuStatus)} />
             </div>
             {menuStatus? 
-                <div className={styles.blur}>
+                <div className={styles.blur} onClick={() => setMenuStatus(false)}>
                     <div className={styles.menuNav}>
                         <ul className={styles.menuNavList}>
                             <li ><Link onClick={() => setMenuStatus(false)} href="a_entidade" passHref className={styles.navLink}>A ENTIDADE</Link></li>
