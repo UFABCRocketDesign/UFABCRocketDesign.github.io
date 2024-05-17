@@ -1,1 +1,67 @@
+@import 'variables';
 @import 'general';
+
+.container {
+    min-height: 41vh;
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    margin:0;
+    padding: 0 1rem;
+    width: 100%;
+    min-height: 86.5vh;
+
+    h1{
+        color: $primary-color;
+        text-shadow:  #F0F5E3 0 0.75rem 0.75rem;
+        font-size: 3.125rem;
+        text-transform: uppercase;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 1rem;
+    }
+    p{
+        font-size: 1.8rem;
+        text-align: justify;
+        text-indent: 3rem;
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+    .paralelogramo{
+        display: flex;
+        width: 3rem;
+        height: 15rem;
+        transform: skew(20deg);
+        rotate: 20deg;
+        margin-bottom: 5rem;
+        h2{
+            rotate: -90deg;
+            color: $white;
+            font-size: 2.5rem;
+            text-transform: lowercase;
+        }
+    }
+
+    .ouro{
+        background-color: #daa520;
+        h2{
+            font-size: 3.2rem !important;
+        }
+    }
+
+    .prata{
+        background-color: #979ea8;
+        h2{
+            font-size: 2.95rem !important;
+        }
+    }
+
+    .bronze{
+        background-color: #c8682b;
+        h2{
+            font-size: 2.7rem !important;
+        }
+    }
+}
