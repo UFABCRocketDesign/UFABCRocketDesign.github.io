@@ -1,1 +1,50 @@
+@import 'variables';
 @import 'general';
+
+.container {
+    min-height: 41vh;
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    margin:0;
+    padding: 0 1rem;
+    width: 100%;
+    min-height: 86.5vh;
+
+    .title{
+        color: $primary-color;
+        text-shadow:  #F0F5E3 0 0.75rem 0.75rem;
+        font-size: 3.125rem;
+        text-transform: uppercase;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    p{
+        font-size: 1.8rem;
+        text-align: justify;
+        text-indent: 3rem;
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+    .secaoapoio{
+        display: flex;
+        flex-direction: row;
+        height: 15rem !important;
+        width: 100%;
+        margin-bottom: 7.5rem;
+        vertical-align: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        overflow-y: hidden;
+        position: relative;
+        justify-content: start;
+    }
+}

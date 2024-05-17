@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+@import '../../styles/general';
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.paralelogramo{
+    display: flex;
+    width: 3rem;
+    height: 15rem;
+    transform: skew(20deg);
+    rotate: 20deg;
+    margin-bottom: 5rem;
+}
+
+.texto{
+    position: relative;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-orientation: mixed;
+    right: 5.75rem;
+    bottom: 5.75rem;
+    align-self: flex-end;
+    font-size: 2.5rem;
+    color: $white;
+    width: 0!important;
+    height: fit-content;
+}
