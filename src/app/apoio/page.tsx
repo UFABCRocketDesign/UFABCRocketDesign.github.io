@@ -2,7 +2,7 @@
 import { Metadata } from 'next';
 
 import styles from '../../styles/apoio.module.scss'
-import { ParalelogramoApoio } from '@/components/paralelogrmo_apoio/paralelogramo_apoio';
+import { ParalelogramoApoio } from '@/components/paralelogramo_apoio/paralelogramo_apoio';
 import { CardApoio } from '@/components/card_apoio/card_apoio';
 // Beginning of page with the current project featured, followed by a list of all projects
 
