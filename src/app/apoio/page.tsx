@@ -21,28 +21,28 @@ export default function Sponsors() {
                 <div className={styles.secaoapoio}>
                     <ParalelogramoApoio nivel='diamante' cor='#0abab5'/>
                     <div className={styles.cards}>
-                        <CardApoio nome="Guatifer" logo={"images/apoiadores/diamante/guatifer.png"}/>
+                        <CardApoio nome="Guatifer" logo={"images/apoiadores/diamante/guatifer.png"} link={'https://www.guatiferusinagem.com.br/'}/>
                     </div>
                 </div>
                 <div className={styles.secaoapoio}>
                     <ParalelogramoApoio nivel='ouro' cor='#daa520'/>
                     <div className={styles.cards}>
-                        <CardApoio nome="InovaUFABC" logo={"images/apoiadores/ouro/InovaUFABC.png"}/>
+                        <CardApoio nome="InovaUFABC" logo={"images/apoiadores/ouro/InovaUFABC.png"} link={'https://inova.ufabc.edu.br/'}/>
                     </div>
                 </div>
                 <div className={styles.secaoapoio}>
                     <ParalelogramoApoio nivel='prata' cor='#979ea8'/>
                     <div className={styles.cards}>
-                        <CardApoio nome="3D Fila" logo={"images/apoiadores/prata/3dfila.png"}/>
-                        <CardApoio nome="MathWorks" logo={"images/apoiadores/prata/MathWorks.png"}/>
-                        <CardApoio nome="Texiglass" logo={"images/apoiadores/prata/texiglass.png"}/>
+                        <CardApoio nome="3D Fila" logo={"images/apoiadores/prata/3dfila.png"} link={'https://3dfila.com.br/'}/>
+                        <CardApoio nome="MathWorks" logo={"images/apoiadores/prata/MathWorks.png"} link={'https://www.mathworks.com/?s_tid=gn_logo'}/>
+                        <CardApoio nome="Texiglass" logo={"images/apoiadores/prata/texiglass.png"} link={'https://www.redelease.ind.br/'}/>
                     </div>
                 </div>
                 <div className={styles.secaoapoio}>
                     <ParalelogramoApoio nivel='bronze' cor='#c8682b'/>
                     <div className={styles.cards}>
-                        <CardApoio nome="Redelease" logo={"images/apoiadores/bronze/redelease.png"}/>
-                        <CardApoio nome="GPDA" logo={"images/apoiadores/bronze/gpda.jpg"}/>
+                        <CardApoio nome="Redelease" logo={"images/apoiadores/bronze/redelease.png"} link={'https://texiglass.com.br/'}/>
+                        <CardApoio nome="GPDA" logo={"images/apoiadores/bronze/gpda.jpg"} link={'https://www.facebook.com/ufabcgpda/'}/>
                     </div>
                 </div>
             </section>
