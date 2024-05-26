@@ -1,9 +1,18 @@
+'use client'
 import Image from "next/image";
 
 // import Layout from '../components/layout';
 import styles from '../styles/index.module.scss';
+import home_api from "@/drive/getHomepage";
+import { useEffect } from "react";
+import parseCSV from "@/drive/parseCSV";
 
 export default function Home() {
+  
+  useEffect(()=>{
+    home_api.get('').then((res) => console.log(parseCSV(res.data)))
+  },[])
+
   return (
     <div className={`${styles.banner} ${styles.stars}`} >
       {/* We have 3 sections, one with photos on the left, one with abtract on the right, and one with sponsors on the bot */}
