@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/drive/parseCSV.ts", "src/drive/getTextos.js", "src/drive/getNoticias.js", "src/drive/getMissoes.js", "src/drive/getMembros.js", "src/drive/getApoio.js"],
   "exclude": ["node_modules"]
 }

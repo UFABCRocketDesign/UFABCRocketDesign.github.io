@@ -1,45 +1,33 @@
-import styles from '../../styles/a_equipe.module.scss';
-import Image from 'next/image';
-
-
-// file ID: 141Qu2apXdlOTrQ1PjM8N3jQBlU_k0h6S
-// https://drive.google.com/uc?export=download&id=141Qu2apXdlOTrQ1PjM8N3jQBlU_k0h6S
-
-//import team from 'https://www.googleapis.com/drive/v3/files/141Qu2apXdlOTrQ1PjM8N3jQBlU_k0h6S?alt=media&key=[YOUR_API_KEY]s';
-
 import { Metadata } from 'next';
+import Image from "next/image";
+import styles from '../../styles/a_equipe.module.scss'
 
 export const metadata: Metadata = {
-    title: 'A Equipe - UFABC Rocket Design',
-    description: '',
+    title: 'Sobre - UFABC Rocket Design',
+    description: 'Where\'s the One Piece?',
 }
 
-
-export default function Team() {
+export default function About() {
     return (
     <>
         <section className={`${styles.container} ${styles.stars}`}>
-            <h1>A Equipe</h1>
-            <div className={styles.conteudo1}>
-                <div className={styles.divEsq}>
-                    <span>XX</span>
-                    <h2>Já atuaram</h2>
-                </div>
-                <div className={styles.containerFoto}>
-                    <Image className={styles.foto} src="/gallery/foto_rg_2024_1.jpg" fill alt="" />
-                </div>
-                <div className={styles.divDir}>
-                    <span>XX</span>
-                    <h2>Membros ativos</h2>
-                </div>
+            <div className={styles.historia}>
+                <h1>A equipe</h1>
+                <h2>História</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nisi vel dolor laoreet rhoncus quis in massa. Nunc fermentum quam commodo elementum posuere. Nam eu varius magna. Aliquam pulvinar finibus semper. Integer a est lorem. Proin non aliquet eros. Sed tempor imperdiet nulla, nec scelerisque purus gravida nec.</p>
+                <p>Phasellus tempus, sapien sit amet pulvinar lacinia, orci est scelerisque lacus, a aliquet arcu ipsum non nisi. Praesent pharetra id lacus sed maximus. Nulla vehicula diam quis egestas vestibulum. Vivamus in vestibulum sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin eget scelerisque enim, et venenatis arcu. Aliquam erat volutpat. </p>
             </div>
-            <div className={styles.conteudo2}>
-                <p>In fringilla fringilla nulla. Vestibulum felis enim, convallis quis nisi quis, maximus ornare ante. Proin in tortor posuere tellus posuere scelerisque sit amet a diam. Aliquam mattis eros eu ex vulputate pretium.Nunc quam diam, tincidunt eget augue sit amet, sodales faucibus turpis. Pellentesque habitant morbi tristique. </p>
-                <p>Aliquam erat volutpat. Ut a sodales libero, ac scelerisque eros. Morbi magna odio, commodo blandit neque vel, rutrum varius arcu.Donec eget eros vel purus consectetur suscipit. Praesent congue elementum dolor eu congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p>Fusce nec ex vitae lacus tempor iaculis commodo eu metus. Donec at metus interdum, malesuada ante at, mattis nulla. Proin at urna in lorem semper eleifend. In finibus condimentum fringilla. Maecenas ultrices, augue et maximus suscipit, arcu ipsum tincidunt tortor, ac tempus urna est et est. </p>
+            <div className={styles.divisao}>
+                <Image className={styles.foguete} src="/images/foguete.png" fill alt="Logomarca UFABC Rocket Design" />
+                <Image className={styles.foguete_horizontal} src="/images/foguete_horizontal.png" fill alt="Logomarca UFABC Rocket Design" />
+            </div>
+            <div className={styles.mvo}>
+                <h2>Missão e Valores</h2>
+                <p>Sed a ultricies turpis, vitae vehicula nibh. Etiam sollicitudin justo vel nunc aliquet ultrices. Suspendisse laoreet eu enim eu venenatis. Donec porttitor consequat lectus. </p>
+                <h2>Organização</h2>
+                <p>Nulla convallis diam ex, quis viverra ipsum laoreet at. Proin vitae ex sit amet justo dapibus sodales ac eu nisl. Cras non massa eros.</p>
             </div>
         </section>
     </>
-        
-    );
+    ) 
 }
