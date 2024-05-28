@@ -1,0 +1,92 @@
+@import 'variables';
+@import 'general';
+
+.container {
+    align-content: center;
+    min-height: 41vh;
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 1079px) {
+        flex-direction: column;
+    }
+
+    h1{
+        color: #F0F5E3;
+        text-shadow: $primary-color 0 0.75rem 0.75rem;
+        font-size: 3.125rem;
+        text-transform: uppercase;
+    }
+    h2{
+        color: #F0F5E3;
+        text-shadow: $primary-color 0 0.75rem 0.75rem;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 1.8rem;
+        text-align: justify;
+        text-indent: 3rem;
+    }
+}
+
+.stars{
+	width:100%; 
+	background: #000 url('https://i.ibb.co/g91MwKZ/stars.png') repeat top center;
+}
+
+.description {
+    text-align: justify;
+}
+
+.historia{
+    margin: 0 0 0 2.5%;
+    width: 33%;
+    @media (max-width: 1079px) {
+        width: 95%;
+    }
+}
+
+.divisao{
+    display: flex;
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    .foguete{
+        margin: auto;
+        position: relative !important;
+        height: 90% !important;
+        width: auto !important;
+        @media (max-width: 1079px) {
+            display: none;
+        }
+    }
+    .foguete_horizontal{
+        display: none;
+        @media (max-width: 1079px) {
+            display: flex;
+            margin: auto;
+            position: relative !important;
+            width: 90% !important;
+            height: auto !important;
+        }
+    }
+    @media (max-width: 1079px) {
+        width: 100vw;
+        height: 15vh;
+        justify-content: start;
+    }
+    
+}
+
+
+
+.mvo{
+    width: 33%;
+    padding-top: 6.25rem;
+    @media (max-width: 1079px) {
+        margin-left: 2.5%;
+        width: 95%;
+        padding-top: 0;
+    }
+}

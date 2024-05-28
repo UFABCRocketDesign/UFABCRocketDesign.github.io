@@ -22,8 +22,8 @@ export default function Header({menuStatus, setMenuStatus}: HeaderProps){
             </Link>
             
             <ul className={styles.nav}>
+                <li ><Link href="a_entidade" passHref className={styles.navLink}>A ENTIDADE</Link></li>
                 <li ><Link href="a_equipe" passHref className={styles.navLink}>A EQUIPE</Link></li>
-                <li ><Link href="membros" passHref className={styles.navLink}>MEMBROS</Link></li>
                 <li ><Link href="missoes" passHref className={styles.navLink}>MISSÕES</Link></li>
                 <li ><Link href="noticias" passHref className={styles.navLink}>NOTÍCIAS</Link></li>
                 <li ><Link href="apoio" passHref className={styles.navLink}>APOIO</Link></li>
@@ -36,8 +36,8 @@ export default function Header({menuStatus, setMenuStatus}: HeaderProps){
                 <div className={styles.blur} onClick={() => setMenuStatus(false)}>
                     <div className={styles.menuNav}>
                         <ul className={styles.menuNavList}>
+                            <li ><Link onClick={() => setMenuStatus(false)} href="a_entidade" passHref className={styles.navLink}>A ENTIDADE</Link></li>
                             <li ><Link onClick={() => setMenuStatus(false)} href="a_equipe" passHref className={styles.navLink}>A EQUIPE</Link></li>
-                            <li ><Link onClick={() => setMenuStatus(false)} href="membros" passHref className={styles.navLink}>MEMBROS</Link></li>
                             <li ><Link onClick={() => setMenuStatus(false)} href="missoes" passHref className={styles.navLink}>MISSÕES</Link></li>
                             <li ><Link onClick={() => setMenuStatus(false)} href="noticias" passHref className={styles.navLink}>NOTÍCIAS</Link></li>
                             <li ><Link onClick={() => setMenuStatus(false)} href="apoio" passHref className={styles.navLink}>APOIO</Link></li>

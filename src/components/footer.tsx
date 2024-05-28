@@ -26,8 +26,8 @@ export default function Footer() {
                     </p>
                 </div>
                 <div className={styles.nav}>
+                    <Link href='a_entidade' passHref className={styles.navItem}>A entidade</Link>
                     <Link href='a_equipe' passHref className={styles.navItem}>A equipe</Link>
-                    <Link href='membros' passHref className={styles.navItem}>Membros</Link>
                     <Link href='missoes' passHref className={styles.navItem}>Missões</Link>
                     <Link href='noticias' passHref className={styles.navItem}>Notícias</Link>
                     <Link href='apoio' passHref className={styles.navItem}>Apoio</Link>
