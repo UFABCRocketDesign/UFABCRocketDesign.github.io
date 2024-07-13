@@ -46,6 +46,25 @@ export default function Sponsors() {
                     </div>
                 </div>
             </section>
+            <section className={styles.texto}>
+                <p>A UFABC Rocket Design é movida pela paixão e dedicação de seus membros, estudantes de diversos cursos da UFABC, que investem tempo e recursos próprios para tornar nossos projetos uma realidade. No entanto, para que possamos continuar inovando e alcançando novas alturas com nossos foguetes, precisamos do seu apoio.</p>
+                <h2>Por que nos apoiar?</h2>
+                <ul>
+                    <li><strong>Educação e Inovação:</strong> Contribua para a formação prática de futuros engenheiros e cientistas</li>
+                    <li><strong>Desafios e superação:</strong> Apoie o desenvolvimento de projetos desafiadores que estimulam a criatividade e a resolução de problemas</li>
+                    <li><strong>Comunidade e colaboração:</strong> Valorize uma entidade universitária que valoriza a cooperação e o compartilhamento de conhecimentos</li>
+                </ul>
+                <h2>Como você pode ajudar?</h2>
+                <ul>
+                    <li><strong>Doações:</strong> Toda doação financeira é bem vinda e será integralmente destinada ao desenvolvimento tecnológico de nossos projetos.</li>
+                    <li><strong>Parcerias e patrocínios:</strong> Empresas e instituições podem se tornar parceiras e sustentar nossos sonhos oferecendo recursos, materiais ou até mesmo suporte técnico.</li>
+                    <li><strong>Participar de nossas campanhas de arrecadação:</strong> Através do nosso Instagram, divulgamos nossas campanhas de arrecadação. Siga-nos e nos auxilie a ter mais alcance!!</li>
+                </ul>
+                <p>Faça uma doação agora e ajude a UFABC Rocket Design a voar cada vez mais alto!</p>
+                <h2>Contato para Parcerias e Patrocínios</h2>
+                <p>Para mais informações sobre como se tornar um parceiro ou patrocinador, entre em contato conosco:</p>
+                <p>Email: foguetes@ufabc.edu.br</p>
+            </section>
         </div>
     </>
     )

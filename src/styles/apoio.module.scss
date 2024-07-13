@@ -46,4 +46,19 @@
         overflow-y: hidden;
         justify-content: start;
     }
+    .texto{
+        color: $black;
+        font-family: $font-text;
+        margin: 0 2.5rem;
+        h2{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 2rem;
+            text-align: justify;
+        }
+        li{
+            font-size: 1.8rem;
+        }
+    }
 }

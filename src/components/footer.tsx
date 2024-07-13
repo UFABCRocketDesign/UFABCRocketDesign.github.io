@@ -11,6 +11,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={styles.socialIcons}>
+                <p>Siga-nos!</p>
                 <Link href={linkInstagram} className={styles.socialIndIcon}><InstagramIcon /></Link>
                 <Link href={linkX} className={styles.socialIndIcon}><TwitterIcon /></Link>
                 <Link href={linkLinkedIn} className={styles.socialIndIcon}><LinkedinIcon /></Link>
@@ -26,15 +27,15 @@ export default function Footer() {
                     </p>
                 </div>
                 <div className={styles.nav}>
-                    <Link href='a_entidade' passHref className={styles.navItem}>A entidade</Link>
                     <Link href='a_equipe' passHref className={styles.navItem}>A equipe</Link>
+                    <Link href='membros' passHref className={styles.navItem}>Membros</Link>
                     <Link href='missoes' passHref className={styles.navItem}>Missões</Link>
                     <Link href='noticias' passHref className={styles.navItem}>Notícias</Link>
                     <Link href='apoio' passHref className={styles.navItem}>Apoio</Link>
                 </div>
             </div>
             <div className={styles.credits}>
-                <p> UFABC Rocket Design - Departamento de TI. All rights reserved.</p>
+                <p>foguetes@ufabc.edu.br - UFABC Rocket Design - Feito orgulhosamente pelos nossos membros</p>
             </div>
 
         </footer>

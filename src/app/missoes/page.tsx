@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 export default function Projects() {
     return (<>
         <div className={styles.container}>
-            <h1 className={styles.title}>Conheça nossos Foguetes</h1>
+            <h1 className={styles.title}>PÁGINA EM CONSTRUÇÃO</h1>
         </div>
     </>
     )

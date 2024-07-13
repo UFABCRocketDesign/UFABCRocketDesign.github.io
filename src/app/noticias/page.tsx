@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function Researchs() {
     return (<>
         <div className={styles.container}>
-            <h1 className={styles.title}>Conheça pesquisas desenvolvidas em nosso Nucleo</h1>
+            <h1 className={styles.title}>PÁGINA EM CONSTRUÇÃO</h1>
         </div>
 
         {/* TODO: Implementar como será mostrado as pesquisas */}

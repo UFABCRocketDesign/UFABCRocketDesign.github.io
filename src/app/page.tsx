@@ -18,10 +18,7 @@ export default function Home() {
           </div>
           <div className={styles.abstractText}>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla vestibulum eros sed euismod. Etiam ac tortor consequat justo pharetra facilisis.  
-            </p>
-            <p>
-            Nam gravida nisi nec posuere placerat. Vivamus lacinia, nibh ut lobortis auctor, dolor ligula porttitor risus, at accumsan magna eros a nulla. Integer ac tincidunt eros.
+            A UFABC Rocket Design é a primeira e maior entidade de foguetemodelismo voltada para o desenvolvimento tecnológico do setor aeroespacial brasileiro. 
             </p>
             <div className={styles.logosUFABC}>
               <Image src="/images/logo_ufabc.png" fill alt="Logomarca UFABC" />
