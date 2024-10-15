@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: 'Where\'s the One Piece?',
 }
 
-export default function Researchs() {
+export default function NOTICIAS() {
     return (<>
         <div className={styles.container}>
             <h1 className={styles.title}>PÁGINA EM CONSTRUÇÃO</h1>

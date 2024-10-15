@@ -2,10 +2,14 @@ import Image from "next/image";
 
 // import Layout from '../components/layout';
 import styles from '../styles/index.module.scss';
+import A_EQUIPE from "./a_equipe/page";
+import MEMBROS from "./membros/page";
+import APOIO from "./apoio/page";
 
 export default function Home() {
   return (
-    <div className={`${styles.banner} ${styles.stars}`} >
+    <>
+    <section className={`${styles.banner} ${styles.stars}`} >
       {/* We have 3 sections, one with photos on the left, one with abtract on the right, and one with sponsors on the bot */}
       <div className={styles.bannerLine}>
         <div className={styles.photos}>
@@ -25,9 +29,12 @@ export default function Home() {
               <Image src="/images/logo_inovaufabc.png" fill alt="Logomarca Inova UFABC" />
             </div>
           </div>
-          
         </div>
       </div>
-    </div>
+    </section>
+    <section><A_EQUIPE/></section>
+    <section><MEMBROS/></section>
+    <section><APOIO/></section>
+    </>
   );
 }

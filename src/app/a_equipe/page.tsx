@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     description: 'Where\'s the One Piece?',
 }
 
-export default function About() {
+export default function A_EQUIPE() {
     return (
     <>
         <section className={`${styles.container} ${styles.stars}`}>

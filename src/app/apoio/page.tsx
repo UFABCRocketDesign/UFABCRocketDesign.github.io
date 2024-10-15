@@ -13,10 +13,10 @@ export const metadata: Metadata = {
     description: 'Where\'s the One Piece?',
 }
 
-export default function Sponsors() {
+export default function APOIO() {
     return (<>
         <div className={styles.container}>
-            <h1 className={styles.title}>Quem nos impulsiona</h1>
+            <h1 className={styles.title}>Apoio</h1>
             <section className={styles.conteudo}>
                 <div className={styles.secaoapoio}>
                     <ParalelogramoApoio nivel='diamante' cor='#0abab5'/>

@@ -1,15 +1,10 @@
 import '../styles/globals.scss'
-import { Inter } from 'next/font/google'
 
-
-import styles from '../styles/layout.module.scss';
 import Body from '@/components/body';
 
-const inter = Inter({ subsets: ['latin'] })
-
 export const metadata = {
-  title: 'UFBAC Rocket Design',
-  description: 'Upgrades people! Upgrades',
+  title: 'UFABC Rocket Design',
+  description: 'Site da equipe de foguetemodelismo da UFABC',
 }
 
 export default function RootLayout({

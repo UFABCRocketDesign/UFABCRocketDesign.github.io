@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 }
 
 
-export default function Team() {
+export default function MEMBROS() {
     return (
     <>
         <section className={`${styles.container} ${styles.stars}`}>
