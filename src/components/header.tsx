@@ -2,7 +2,7 @@
 import styles from './header.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 
 interface HeaderProps{
     menuStatus: boolean;
@@ -10,23 +10,33 @@ interface HeaderProps{
 }
 
 export default function Header({menuStatus, setMenuStatus}: HeaderProps){
+    const [idEquipe, setIdEquipe] = useState<number|undefined>()
+    const [idMembros, setIdMembros] = useState<number|undefined>()
+    const [idApoio, setIdApoio] = useState<number|undefined>()
+    const [offset, setOffset] = useState<number|undefined>()
 
+    useEffect(() => {
+        setIdEquipe(document.getElementById("A_EQUIPE")?.offsetTop)
+        setIdMembros(document.getElementById("MEMBROS")?.offsetTop)
+        setIdApoio(document.getElementById("APOIO")?.offsetTop)
+        setOffset( window.innerHeight < window.innerWidth? window.innerWidth/96: -window.innerWidth/96)
+    }, []);
     return (
         <header className={styles.header}>
-            <Link href="/" passHref className={styles.logo}>
+            <label onClick={() => scrollTo({top: 0, behavior:"smooth"})} className={styles.logo}>
                 <Image onClick={() => setMenuStatus(false)} className={styles.logoImg} src="/images/logo_rocket.png" fill alt="Logo" />
                 <div className={styles.nameDiv}>
                     <h1>UFABC</h1>
                     <h1>ROCKET DESIGN</h1>
                 </div>
-            </Link>
+            </label>
             
             <ul className={styles.nav}>
-                <li ><Link href="a_equipe" passHref className={styles.navLink}>A EQUIPE</Link></li>
-                <li ><Link href="membros" passHref className={styles.navLink}>MEMBROS</Link></li>
-                <li ><Link href="missoes" passHref className={styles.navLink}>MISSÕES</Link></li>
-                <li ><Link href="noticias" passHref className={styles.navLink}>NOTÍCIAS</Link></li>
-                <li ><Link href="apoio" passHref className={styles.navLink}>APOIO</Link></li>
+                <li ><label onClick={() => scrollTo({top: idEquipe&&offset? idEquipe - offset : 0, behavior:"smooth"})} className={styles.navLink}>A EQUIPE</label></li>
+                <li ><label onClick={() => scrollTo({top: idMembros&&offset? idMembros - offset : 0, behavior:"smooth"})} className={styles.navLink}>MEMBROS</label></li>
+                <li ><label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>MISSÕES</label></li>
+                <li ><label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>NOTÍCIAS</label></li>
+                <li ><label onClick={() => scrollTo({top: idApoio&&offset? idApoio - offset : 0, behavior:"smooth"})} className={styles.navLink}>APOIO</label></li>
             </ul>
 
             <div className={styles.hamburgerMenu}>
@@ -36,11 +46,11 @@ export default function Header({menuStatus, setMenuStatus}: HeaderProps){
                 <div className={styles.blur} onClick={() => setMenuStatus(false)}>
                     <div className={styles.menuNav}>
                         <ul className={styles.menuNavList}>
-                            <li ><Link onClick={() => setMenuStatus(false)} href="a_entidade" passHref className={styles.navLink}>A ENTIDADE</Link></li>
-                            <li ><Link onClick={() => setMenuStatus(false)} href="a_equipe" passHref className={styles.navLink}>A EQUIPE</Link></li>
-                            <li ><Link onClick={() => setMenuStatus(false)} href="missoes" passHref className={styles.navLink}>MISSÕES</Link></li>
-                            <li ><Link onClick={() => setMenuStatus(false)} href="noticias" passHref className={styles.navLink}>NOTÍCIAS</Link></li>
-                            <li ><Link onClick={() => setMenuStatus(false)} href="apoio" passHref className={styles.navLink}>APOIO</Link></li>
+                            <li ><label onClick={() => scrollTo({top: idEquipe&&offset? idEquipe - offset : 0, behavior:"smooth"})} className={styles.navLink}>A EQUIPE</label></li>
+                            <li ><label onClick={() => scrollTo({top: idMembros&&offset? idMembros - offset : 0, behavior:"smooth"})} className={styles.navLink}>MEMBROS</label></li>
+                            <li ><label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>MISSÕES</label></li>
+                            <li ><label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>NOTÍCIAS</label></li>
+                            <li ><label onClick={() => scrollTo({top: idApoio&&offset? idApoio - offset : 0, behavior:"smooth"})} className={styles.navLink}>APOIO</label></li>
                         </ul>
                     </div>
                 </div>

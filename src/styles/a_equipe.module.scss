@@ -4,7 +4,7 @@
 .container {
     align-content: center;
     min-height: 41vh;
-    display: flex;
+    display: grid;
     flex-direction: row;
 
     @media (max-width: 1079px) {
@@ -25,9 +25,14 @@
         text-transform: uppercase;
     }
     p{
-        font-size: 1.8rem;
         text-align: justify;
         text-indent: 3rem;
+    }
+}
+.subcontainer{
+    display: flex;
+    @media (max-width: 1079px) {
+        display: grid;
     }
 }
 
@@ -84,7 +89,6 @@
 
 .mvo{
     width: 33%;
-    padding-top: 6.25rem;
     @media (max-width: 1079px) {
         margin-left: 2.5%;
         width: 95%;

@@ -21,27 +21,27 @@ export default function APOIO() {
                 <div className={styles.secaoapoio}>
                     <ParalelogramoApoio nivel='diamante' cor='#0abab5'/>
                     <div className={styles.cards}>
-                        <CardApoio nome="Guatifer" logo={"images/apoiadores/diamante/guatifer.png"} link={'https://www.guatiferusinagem.com.br/'}/>
+                        <CardApoio nome="Guatifer" logo={"https://i.ibb.co/MhbfBVM/Guatifer-Alta.jpg"} link={'https://www.guatiferusinagem.com.br/'}/>
                     </div>
                 </div>
                 <div className={styles.secaoapoio}>
                     <ParalelogramoApoio nivel='ouro' cor='#daa520'/>
                     <div className={styles.cards}>
-                        <CardApoio nome="InovaUFABC" logo={"images/apoiadores/ouro/InovaUFABC.png"} link={'https://inova.ufabc.edu.br/'}/>
+                        <CardApoio nome="InovaUFABC" logo={"https://eventos.ufabc.edu.br/semanactiabc/images/Logos/LogoInovaUFABC2.png"} link={'https://inova.ufabc.edu.br/'}/>
                     </div>
                 </div>
                 <div className={styles.secaoapoio}>
                     <ParalelogramoApoio nivel='prata' cor='#979ea8'/>
                     <div className={styles.cards}>
-                        <CardApoio nome="3D Fila" logo={"images/apoiadores/prata/3dfila.png"} link={'https://3dfila.com.br/'}/>
-                        <CardApoio nome="MathWorks" logo={"images/apoiadores/prata/MathWorks.png"} link={'https://www.mathworks.com/?s_tid=gn_logo'}/>
-                        <CardApoio nome="Texiglass" logo={"images/apoiadores/prata/texiglass.png"} link={'https://texiglass.com.br/'}/>
+                        <CardApoio nome="3D Fila" logo={"https://pbs.twimg.com/profile_images/610525708763426816/ES3hVM4Q_400x400.png"} link={'https://3dfila.com.br/'}/>
+                        <CardApoio nome="MathWorks" logo={"https://eits.uga.edu/_resources/files/images/resized.png"} link={'https://www.mathworks.com/?s_tid=gn_logo'}/>
+                        <CardApoio nome="Texiglass" logo={"https://keepflyingpoliusp.com.br/src/img/Patrocinadores/Ouro/texiglass.png"} link={'https://texiglass.com.br/'}/>
                     </div>
                 </div>
                 <div className={styles.secaoapoio}>
                     <ParalelogramoApoio nivel='bronze' cor='#c8682b'/>
                     <div className={styles.cards}>
-                        <CardApoio nome="Redelease" logo={"images/apoiadores/bronze/redelease.png"} link={'https://www.redelease.ind.br/'}/>
+                        <CardApoio nome="Redelease" logo={"https://www.redelease.ind.br/wp-content/uploads/2023/03/Logo-Redelease-PNG.png"} link={'https://www.redelease.ind.br/'}/>
                         <CardApoio nome="GPDA" logo={"images/apoiadores/bronze/gpda.jpg"} link={'https://www.facebook.com/ufabcgpda/'}/>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ import APOIO from "./apoio/page";
 export default function Home() {
   return (
     <>
-    <section className={`${styles.banner} ${styles.stars}`} >
+    <section className={`${styles.banner} ${styles.stars} ${styles.container}`} >
       {/* We have 3 sections, one with photos on the left, one with abtract on the right, and one with sponsors on the bot */}
       <div className={styles.bannerLine}>
         <div className={styles.photos}>
@@ -32,9 +32,9 @@ export default function Home() {
         </div>
       </div>
     </section>
-    <section><A_EQUIPE/></section>
-    <section><MEMBROS/></section>
-    <section><APOIO/></section>
+    <section id="A_EQUIPE"><A_EQUIPE/></section>
+    <section id="MEMBROS"><MEMBROS/></section>
+    <section id="APOIO"><APOIO/></section>
     </>
   );
 }
