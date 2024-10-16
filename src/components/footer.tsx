@@ -1,12 +1,25 @@
+'use client'
 import styles from './footer.module.scss';
 import { InstagramIcon, TwitterIcon, LinkedinIcon } from '../components/icons'
 import Link from 'next/link';
 import Image from "next/image";
+import { useEffect, useState } from 'react';
 
 export default function Footer() {
     const linkInstagram:string = "https://www.instagram.com/ufabcrocketdesign/";
     const linkX:string = "https://twitter.com/UFABCRD";
     const linkLinkedIn:string = "https://www.linkedin.com/company/ufabc-rocket-design/";
+    const [idEquipe, setIdEquipe] = useState<number|undefined>()
+    const [idMembros, setIdMembros] = useState<number|undefined>()
+    const [idApoio, setIdApoio] = useState<number|undefined>()
+    const [offset, setOffset] = useState<number|undefined>()
+
+    useEffect(() => {
+        setIdEquipe(document.getElementById("A_EQUIPE")?.offsetTop)
+        setIdMembros(document.getElementById("MEMBROS")?.offsetTop)
+        setIdApoio(document.getElementById("APOIO")?.offsetTop)
+        setOffset( window.innerHeight < window.innerWidth? window.innerWidth/96: -window.innerWidth/12)
+    }, []);
 
     return (
         <footer className={styles.footer}>
@@ -18,7 +31,7 @@ export default function Footer() {
             </div>
             <div className={styles.row}>
                 <div className={styles.logo}>
-                    <Link href="\" passHref className={styles.textLogo}><span className={styles.grupoLogo}><Image src="/images/logo_rocket_azul.png" fill alt="Logomarca UFABC Rocket Design" /> UFABC Rocket Design</span></Link>
+                    <label onClick={() => scrollTo({top: 0, behavior:"smooth"})} className={styles.textLogo}><span className={styles.grupoLogo}><Image src="/images/logo_rocket_azul.png" fill alt="Logomarca UFABC Rocket Design" /> UFABC Rocket Design</span></label>
                 </div>
                 <div className={styles.quote}>
                     <p className={styles.quoteText}>&quot;Per Aspera Ad Astra&quot;
@@ -27,11 +40,11 @@ export default function Footer() {
                     </p>
                 </div>
                 <div className={styles.nav}>
-                    <Link href='a_equipe' passHref className={styles.navItem}>A equipe</Link>
-                    <Link href='membros' passHref className={styles.navItem}>Membros</Link>
-                    <Link href='missoes' passHref className={styles.navItem}>Missões</Link>
-                    <Link href='noticias' passHref className={styles.navItem}>Notícias</Link>
-                    <Link href='apoio' passHref className={styles.navItem}>Apoio</Link>
+                    <label onClick={() => scrollTo({top: idEquipe&&offset? idEquipe - offset : 0, behavior:"smooth"})} className={styles.navLink}>A EQUIPE</label>
+                    <label onClick={() => scrollTo({top: idMembros&&offset? idMembros - offset : 0, behavior:"smooth"})} className={styles.navLink}>MEMBROS</label>
+                    <label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>MISSÕES</label>
+                    <label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>NOTÍCIAS</label>
+                    <label onClick={() => scrollTo({top: idApoio&&offset? idApoio - offset : 0, behavior:"smooth"})} className={styles.navLink}>APOIO</label>
                 </div>
             </div>
             <div className={styles.credits}>

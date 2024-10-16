@@ -91,6 +91,7 @@
     font-size: 2.5rem;
     padding-left: 1rem;
     align-self: center;
+    cursor: pointer;
     @media (max-width:924px) {
         font-size: 1.25rem;
     }
@@ -124,7 +125,7 @@
     flex-direction: column !important;
 }
 
-.navItem {
+.navLink {
     // "text-decoration-none h6 text-end text-white"
     font-family: $font-title;
     text-decoration: none !important;
@@ -132,6 +133,7 @@
     text-align: end;
     color: black;
     padding-right: 1rem;
+    cursor: pointer;
 }
 .navItem:hover{
     color: $tertiary-color;

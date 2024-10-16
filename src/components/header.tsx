@@ -1,6 +1,5 @@
 'use client'
 import styles from './header.module.scss';
-import Link from 'next/link';
 import Image from 'next/image';
 import React, {useEffect, useState} from 'react';
 
@@ -19,7 +18,7 @@ export default function Header({menuStatus, setMenuStatus}: HeaderProps){
         setIdEquipe(document.getElementById("A_EQUIPE")?.offsetTop)
         setIdMembros(document.getElementById("MEMBROS")?.offsetTop)
         setIdApoio(document.getElementById("APOIO")?.offsetTop)
-        setOffset( window.innerHeight < window.innerWidth? window.innerWidth/96: -window.innerWidth/96)
+        setOffset( window.innerHeight < window.innerWidth? window.innerWidth/96: -window.innerWidth/48)
     }, []);
     return (
         <header className={styles.header}>
