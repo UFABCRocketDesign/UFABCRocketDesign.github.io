@@ -42,8 +42,8 @@ export default function Footer() {
                 <div className={styles.nav}>
                     <label onClick={() => scrollTo({top: idEquipe&&offset? idEquipe - offset : 0, behavior:"smooth"})} className={styles.navLink}>A EQUIPE</label>
                     <label onClick={() => scrollTo({top: idMembros&&offset? idMembros - offset : 0, behavior:"smooth"})} className={styles.navLink}>MEMBROS</label>
-                    <label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>MISSÕES</label>
-                    <label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>NOTÍCIAS</label>
+                    <label style={{display: 'none'}} onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>MISSÕES</label>
+                    <label style={{display: 'none'}} onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>NOTÍCIAS</label>
                     <label onClick={() => scrollTo({top: idApoio&&offset? idApoio - offset : 0, behavior:"smooth"})} className={styles.navLink}>APOIO</label>
                 </div>
             </div>
