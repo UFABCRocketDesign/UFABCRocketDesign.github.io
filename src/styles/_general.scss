@@ -9,8 +9,21 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
-    p{
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2.5rem;
+        @media (max-width: 480px) {
+            font-size: 1.8rem;
+        }
+    }
+    p, li{
+        text-align: justify;
         font-size: 1.6rem;
+        @media (max-width: 480px) {
+            font-size: 1.3rem;
+        }
     }
 }
 

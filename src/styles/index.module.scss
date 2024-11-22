@@ -53,13 +53,14 @@
 .logoRocket{
     display: flex;
     min-width: fit-content;
+    padding-bottom: 0.75rem;
     h1{
         color: $offwhite;
         text-shadow: $primary-color 0 0.75rem 0.75rem;
         font-size: 3.125rem;
         max-width: 15rem;
         margin: 0 0 0 2.5%;
-        @media (max-width: 455px) {
+        @media (max-width: 480px) {
             font-size: 2rem;
             max-width: 8rem !important;
         }
@@ -68,7 +69,7 @@
         width: 15rem !important;
         height: 15rem !important;
         position: relative !important;
-        @media (max-width: 455px) {
+        @media (max-width: 480px) {
             margin: auto;
             width: 5rem !important;
             height: 5rem !important;
