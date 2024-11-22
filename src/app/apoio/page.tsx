@@ -47,20 +47,29 @@ export default function APOIO() {
                 </div>
             </section>
             <section className={styles.texto}>
-                <p>A UFABC Rocket Design é movida pela paixão e dedicação de seus membros, estudantes de diversos cursos da UFABC, que investem tempo e recursos próprios para tornar nossos projetos uma realidade. No entanto, para que possamos continuar inovando e alcançando novas alturas com nossos foguetes, precisamos do seu apoio.</p>
+                <p>A UFABC Rocket Design é movida pela paixão e dedicação, nossos membros investem tempo e recursos próprios para tornar nossos sonhos uma realidade. No entanto, para que possamos continuar inovando e alcançando novas alturas, para que possamos continuar inovando e alcançando novas alturas, precisamos de apoio.</p>
                 <h2>Por que nos apoiar?</h2>
                 <ul>
-                    <li><strong>Educação e Inovação:</strong> Contribua para a formação prática de futuros engenheiros e cientistas</li>
-                    <li><strong>Desafios e superação:</strong> Apoie o desenvolvimento de projetos desafiadores que estimulam a criatividade e a resolução de problemas</li>
-                    <li><strong>Comunidade e colaboração:</strong> Valorize uma entidade universitária que valoriza a cooperação e o compartilhamento de conhecimentos</li>
+                    <li><strong>Inovação e Excelência:</strong> Associe sua marca a um time inovador, que busca soluções tecnológicas avançadas e mantém elevados padrões de qualidade.</li>
+                    <li><strong>Visibilidade Nacional e Internacional:</strong> Promovemos e participamos de eventos científicos de destaque, além de disputar as maiores competições do mundo, proporcionando ampla visibilidade para a marca dos nossos patrocinadores.</li>
+                    <li><strong>Contribuição para o Futuro Tecnológico do Brasil:</strong> Apoie a educação, a inovação e a capacitação de talentos brasileiros.</li>
+                    <li><strong>Ações Publicitárias:</strong> Realizamos ações de marketing personalizadas, alinhadas às necessidades da empresa, fortalecendo sua marca de forma estratégica.</li>
                 </ul>
                 <h2>Como você pode ajudar?</h2>
+                <p>Junte-se a nós e faça parte dessa jornada de inovação e transformação no setor aeroespacial brasileiro! Sua contribuição, seja pessoal ou empresarial, pode ocorrer das seguintes formas:</p>
                 <ul>
-                    <li><strong>Doações:</strong> Toda doação financeira é bem vinda e será integralmente destinada ao desenvolvimento tecnológico de nossos projetos.</li>
-                    <li><strong>Parcerias e patrocínios:</strong> Empresas e instituições podem se tornar parceiras e sustentar nossos sonhos oferecendo recursos, materiais ou até mesmo suporte técnico.</li>
-                    <li><strong>Participar de nossas campanhas de arrecadação:</strong> Através do nosso Instagram, divulgamos nossas campanhas de arrecadação. Siga-nos e nos auxilie a ter mais alcance!!</li>
+                    <li><strong>Doações:</strong>  Todo valor é bem vindo e será integralmente destinado ao desenvolvimento de nossos projetos.</li>
+                    <li><strong>Participar de nossas campanhas de arrecadação:</strong> Através do nosso Instagram, divulgamos nossas rifas, venda de produtos e demais campanhas.</li>
+                    <li><strong>Parcerias e patrocínios:</strong> Empresas e instituições podem se tornar parceiras e ter acesso ao nossos benefícios nos apoiando das seguintes maneiras:
+                    <ul>
+                        <li><strong>Apoio financeiro</strong></li>
+                        <li><strong>Fornecimento de materiais</strong></li>
+                        <li><strong>Prestação de serviços</strong></li>
+                        <li><strong>Capacitação dos membros</strong></li>
+                    </ul>
+                    </li>
                 </ul>
-                <p>Faça uma doação agora e ajude a UFABC Rocket Design a voar cada vez mais alto!</p>
+                <p>Acesse nosso portfólio comercial e descubra em detalhes nossos projetos, conquistas e o impacto que estamos gerando. Entre em contato conosco e contribua para o sucesso dessa missão!</p>
                 <h2>Contato para Parcerias e Patrocínios</h2>
                 <p>Para mais informações sobre como se tornar um parceiro ou patrocinador, entre em contato conosco:</p>
                 <p>Email: foguetes@ufabc.edu.br</p>

@@ -33,9 +33,9 @@ export default function MEMBROS() {
                     <h2>Membros ativos</h2>
                 </div>
             </div>
-            <div className={styles.conteudo2}>
+            {/*<div className={styles.conteudo2}>
                 <p>Formamos pessoas que sabem lidar com os desafios de diversas áreas e estejam preparadas para trabalhar na indústria, sendo pioneiros no Brasil no ramo de foguetemodelismo. </p>
-            </div>
+            </div>*/}
         </section>
     </>
         

@@ -15,19 +15,18 @@ export default function A_EQUIPE() {
             <div className={`${styles.subcontainer}`}>
                 <div className={styles.historia}>
                     <h2>História</h2>
-                    <p>Somos uma organização estudantil, sem fins lucrativos, sem filiação religiosa, política ou partidária, com fundação oficial em 20 de janeiro de 2010 e contamos atualmente com mais de 120 membros, divididos em 10 áreas de atuação, incluindo desenvolvimento de projetos, gestão de pessoas e dados, extensão universitária, comunicação com o meio externo, divulgação e pesquisa tecnológica.</p>
-                    <p>Participando de competições desde 2013, a UFABC Rocket Design já lançou projetos em torneios nacionais, latinoamericanas e mundiais. Para além dos lançamentos, é notável a contribuição da equipe em projetos de pesquisa e extensão universitária, contando com mais de 10 professores orientadores para iniciação científica, participando e promovendo diversos eventos para agregar valor e desenvolver tanto a comunidade científica aeroespacial como a comunidade externa.</p>
+                    <p>Fundada em 20 de janeiro de 2010, a UFABC Rocket Design é a primeira e maior equipe de foguetemodelismo do Brasil. Com mais de 20 projetos e diversos prêmios em competições internacionais, destacamo-nos pelo impacto gerado na sociedade, tanto pelas iniciativas de extensão quanto pelas mais de 100 pesquisas publicadas.</p>
+                    <h2>Valores e Objetivos</h2>
+                    <p>Somos entusiastas do setor aeroespacial, que trabalhamos para desenvolver o cenário brasileiro através do ensino, pesquisa, desenvolvimento, produção e lançamento de foguetes</p>
                 </div>
                 <div className={styles.divisao}>
                     <Image className={styles.foguete} src="/images/foguete.png" fill alt="Logomarca UFABC Rocket Design" />
                     <Image className={styles.foguete_horizontal} src="/images/foguete_horizontal.png" fill alt="Logomarca UFABC Rocket Design" />
                 </div>
                 <div className={styles.mvo}>
-                    <h2>Valores e Objetivos</h2>
-                    <p>Na UFABC Rocket Design, estamos comprometidos com o progresso da ciência aeroespacial brasileira e promovemos a integração entre academia e comunidade. Valorizamos disciplina, determinação, ética e o bem-estar de nossos membros. Temos a honra de representar a UFABC e buscamos constantemente aprimorar o conhecimento acadêmico e desenvolver tecnologias inovadoras em foguetemodelismo.</p>
+                    
                     <h2>Organização</h2>
-                    <p>A UFABC Rocket Design apresenta uma estruturação organizacional robusta, delineada através de um estatuto elaborado pelos próprios alunos. A equipe opera com eficácia ao integrar núcleos e departamentos que abrangem desde o design aerodinâmico até a gestão financeira.</p>
-                    <p>Compõem a estrutura da equipe os núcleos de Gestão, Missão, Extensão, Pesquisa e Marketing, além das Lideranças de Projeto e a Comissão de Segurança.</p>
+                    <p>Somos uma equipe multidisciplinar, com alunos de mais de 15 cursos divididos em cinco áreas: Gestão, Missão, Pesquisa, Extensão e Marketing. Unindo diferentes formações, buscamos excelência por meio da colaboração e troca de conhecimentos, o que enriquece nossos projetos e permite soluções inovadoras para alcançar voos cada vez mais altos.</p>
                 </div>
             </div>
         </section>

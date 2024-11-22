@@ -12,7 +12,7 @@ export function CardApoio({nome, logo, link}:CardApoioProps){
             <div className={styles.centralizarImagem}>
                 <Image fill src={logo} alt={`logomarca da empresa ${nome}`} className={styles.logo}/>
             </div>
-            <h3 className={styles.nome}>{nome}</h3>
+            {/*<h3 className={styles.nome}>{nome}</h3>*/}
         </a>
     )
 }

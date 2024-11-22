@@ -33,8 +33,8 @@ export default function Header({menuStatus, setMenuStatus}: HeaderProps){
             <ul className={styles.nav}>
                 <li ><label onClick={() => scrollTo({top: idEquipe&&offset? idEquipe - offset : 0, behavior:"smooth"})} className={styles.navLink}>A EQUIPE</label></li>
                 <li ><label onClick={() => scrollTo({top: idMembros&&offset? idMembros - offset : 0, behavior:"smooth"})} className={styles.navLink}>MEMBROS</label></li>
-                <li ><label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>MISSÕES</label></li>
-                <li ><label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>NOTÍCIAS</label></li>
+                <li ><label style={{display: 'none'}} onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>MISSÕES</label></li>
+                <li ><label style={{display: 'none'}} onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>NOTÍCIAS</label></li>
                 <li ><label onClick={() => scrollTo({top: idApoio&&offset? idApoio - offset : 0, behavior:"smooth"})} className={styles.navLink}>APOIO</label></li>
             </ul>
 
@@ -47,8 +47,8 @@ export default function Header({menuStatus, setMenuStatus}: HeaderProps){
                         <ul className={styles.menuNavList}>
                             <li ><label onClick={() => scrollTo({top: idEquipe&&offset? idEquipe - offset : 0, behavior:"smooth"})} className={styles.navLink}>A EQUIPE</label></li>
                             <li ><label onClick={() => scrollTo({top: idMembros&&offset? idMembros - offset : 0, behavior:"smooth"})} className={styles.navLink}>MEMBROS</label></li>
-                            <li ><label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>MISSÕES</label></li>
-                            <li ><label onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>NOTÍCIAS</label></li>
+                            <li ><label style={{display: 'none'}} onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>MISSÕES</label></li>
+                            <li ><label style={{display: 'none'}} onClick={() => alert("Página em construção! Desculpe o transtorno")} className={styles.navLink}>NOTÍCIAS</label></li>
                             <li ><label onClick={() => scrollTo({top: idApoio&&offset? idApoio - offset : 0, behavior:"smooth"})} className={styles.navLink}>APOIO</label></li>
                         </ul>
                     </div>

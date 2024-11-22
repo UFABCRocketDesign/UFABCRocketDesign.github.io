@@ -13,7 +13,7 @@ export default function Home() {
       {/* We have 3 sections, one with photos on the left, one with abtract on the right, and one with sponsors on the bot */}
       <div className={styles.bannerLine}>
         <div className={styles.photos}>
-          <Image src="/gallery/base.png" fill alt="Uma credencial retangular com o escrito 'Latin America Space Challenge' com a logomarca da LASC ao lado de um boné da UFABC Rocket Design, ambos sobre uma sacola ecológica bege com uma estampa da UFABC Rocket Design em azul" />
+          <Image src="/gallery/base.jpg" fill alt="Uma credencial retangular com o escrito 'Latin America Space Challenge' com a logomarca da LASC ao lado de um boné da UFABC Rocket Design, ambos sobre uma sacola ecológica bege com uma estampa da UFABC Rocket Design em azul" />
         </div>
         <div className={styles.abstract}>
           <div className={styles.logoRocket}>
@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <div className={styles.abstractText}>
             <p>
-            A UFABC Rocket Design é a primeira e maior entidade de foguetemodelismo voltada para o desenvolvimento tecnológico do setor aeroespacial brasileiro. 
+            UFABC Rocket Design: pioneiros e líderes no foguetemodelismo brasileiro. Transformamos sonhos em lançamentos, impulsionando o setor aeroespacial rumo ao futuro! 
             </p>
             <div className={styles.logosUFABC}>
               <Image src="/images/logo_ufabc.png" fill alt="Logomarca UFABC" />
