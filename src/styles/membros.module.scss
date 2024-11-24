@@ -48,7 +48,7 @@
     height: 30%;
     justify-content: center;
 
-    @media (max-width: 1079px) {
+    @media (max-width: 1193px) {
         flex-direction: column;
         align-items: center;
     }
@@ -75,7 +75,7 @@
         max-width: 40%;
         display: flex;
         justify-content: center;
-        @media (max-width: 1079px) {
+        @media (max-width: 1193px) {
             max-width: 90%;
         }
         .foto{
@@ -100,8 +100,19 @@
             font-size: 2.5rem;
             line-height: 2.5rem;
         }
-        @media (max-width: 1079px) {
+        @media (max-width: 1193px) {
             width: 90%;
+            padding-left: 0;
+            div{
+                display: flex;
+                justify-content: start;
+                h2,span{
+                    line-height: unset;
+                }
+                span{
+                    margin-right: 1rem;
+                }
+            }
         }
     }
 }
@@ -118,7 +129,7 @@
         width: 75%;
         text-indent: 0;
         margin: 3rem 2rem;
-        @media (max-width: 1079px) {
+        @media (max-width: 1193px) {
             width: 90%;
         }
     }
