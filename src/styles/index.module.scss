@@ -39,9 +39,11 @@
         font-family: $font-text;
         line-break: auto;
         text-align: justify;
+        font-size: 2rem;
         @media (max-width: 1079px) {
             margin: auto;
             text-indent: 3rem;
+            
         }
     }
 }

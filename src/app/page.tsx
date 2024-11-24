@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <div className={styles.abstractText}>
             <p>
-            <strong>UFABC Rocket Design:</strong> pioneiros e líderes no foguetemodelismo brasileiro. Transformamos sonhos em lançamentos, impulsionando o setor aeroespacial rumo ao futuro! 
+            Pioneiros e líderes no foguetemodelismo brasileiro. Transformamos sonhos em lançamentos, impulsionando o setor aeroespacial rumo ao futuro! 
             </p>
             <div className={styles.logosUFABC}>
               <Image src="/images/logo_ufabc.png" fill alt="Logomarca UFABC" />

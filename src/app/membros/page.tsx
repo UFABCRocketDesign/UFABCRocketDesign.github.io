@@ -21,16 +21,22 @@ export default function MEMBROS() {
         <section className={`${styles.container} ${styles.stars}`}>
             <h1>Membros</h1>
             <div className={styles.conteudo1}>
-                <div className={styles.divEsq}>
-                    <span>461</span>
-                    <h2>Já atuaram</h2>
-                </div>
                 <div className={styles.containerFoto}>
                     <Image className={styles.foto} src="/gallery/foto_rg_2024_1.jpg" fill alt="" />
                 </div>
                 <div className={styles.divDir}>
-                    <span>126</span>
-                    <h2>Membros ativos</h2>
+                    <div>
+                        <span>110</span>
+                        <h2>Membros ativos</h2>
+                    </div>
+                    <div>
+                        <span>43</span>
+                        <h2>Consultores</h2>
+                    </div>
+                    <div>
+                        <span>464</span>
+                        <h2>Já atuaram</h2>
+                    </div>
                 </div>
             </div>
             {/*<div className={styles.conteudo2}>
