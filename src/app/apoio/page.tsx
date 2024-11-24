@@ -69,7 +69,7 @@ export default function APOIO() {
                     </ul>
                     </li>
                 </ul>
-                <p>Acesse nosso portfólio comercial e descubra em detalhes nossos projetos, conquistas e o impacto que estamos gerando. Entre em contato conosco e contribua para o sucesso dessa missão!</p>
+                <p><a href="/pdf/portifolio_urd.pdf" target="_blank">Acesse nosso portfólio comercial</a> e descubra em detalhes nossos projetos, conquistas e o impacto que estamos gerando. Entre em contato conosco e contribua para o sucesso dessa missão!</p>
                 <h3>Contato para Parcerias e Patrocínios</h3>
                 <p>Para mais informações sobre como se tornar um parceiro ou patrocinador, entre em contato conosco:</p>
                 <p>Email: foguetes@ufabc.edu.br</p>
