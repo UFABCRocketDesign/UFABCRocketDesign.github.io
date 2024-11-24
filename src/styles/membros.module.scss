@@ -99,6 +99,9 @@
             margin: 0;
             font-size: 2.5rem;
             line-height: 2.5rem;
+            @media (max-width: 480px) {
+                font-size: 1.8rem;
+            }
         }
         @media (max-width: 1193px) {
             width: 90%;
