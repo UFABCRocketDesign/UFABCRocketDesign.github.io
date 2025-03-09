@@ -26,7 +26,7 @@ export default function MEMBROS() {
                 </div>
                 <div className={styles.divDir}>
                     <div>
-                        <span>136</span>
+                        <span>110</span>
                         <h2>Membros ativos</h2>
                     </div>
                     <div>
@@ -34,7 +34,7 @@ export default function MEMBROS() {
                         <h2>Consultores</h2>
                     </div>
                     <div>
-                        <span>506</span>
+                        <span>464</span>
                         <h2>Já atuaram</h2>
                     </div>
                 </div>
