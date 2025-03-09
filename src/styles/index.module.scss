@@ -313,7 +313,8 @@
 
 .stars{
 	width:100%; 
-	background: #000 url('https://i.ibb.co/g91MwKZ/stars.png') repeat top center;
+	background: #000 url('../../public/images/fundo_estrelado_1.jpg') repeat top center;
+    background-size: contain;
 }
 
 .pageButton {
