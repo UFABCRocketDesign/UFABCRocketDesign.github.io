@@ -42,7 +42,7 @@ export default function APOIO() {
                     <ParalelogramoApoio nivel='bronze' cor='#c8682b'/>
                     <div className={styles.cards}>
                         <CardApoio nome="Redelease" logo={"https://www.redelease.ind.br/wp-content/uploads/2023/03/Logo-Redelease-PNG.png"} link={'https://www.redelease.ind.br/'}/>
-                        <CardApoio nome="GPDA" logo={"images/apoiadores/bronze/gpda.jpg"} link={'https://www.facebook.com/ufabcgpda/'}/>
+                        <CardApoio nome="GPDA" logo={"images/apoiadores/bronze/gpda.jpg"} link={'https://www.gpdaufabc.tech/'}/>
                     </div>
                 </div>
             </section>
